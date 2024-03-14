@@ -8,6 +8,7 @@ export default NextAuth({
   session: {
     strategy: "jwt",
   },
+  secret: process.env.NEXTAUTH_SECRET,
   providers: [
     CredentialsProvider({
       name: "Credentials",
@@ -33,10 +34,7 @@ export default NextAuth({
           throw new Error("No user found!");
         }
 
-        const isValid = await verifyPassword(
-          credentials.password,
-          user.password
-        );
+        const isValid = await verifyPassword(credentials.password, user.password);
 
         if (!isValid) {
           client.close();
