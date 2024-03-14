@@ -8,7 +8,7 @@ function StartingPageContent() {
       <p>
         Welcome to MealMap - your go-to destination for dining inspiration! Dive
         into our curated reviews and discover culinary delights from around the
-        globe. Whether you're seeking fine dining elegance or cozy comfort, let
+        globe. Whether you are seeking fine dining elegance or cozy comfort, let
         us guide you to the perfect spot for your next memorable meal.
       </p>
     </section>
