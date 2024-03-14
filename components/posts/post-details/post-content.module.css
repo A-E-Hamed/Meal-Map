@@ -1,0 +1,46 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-bottom: 1.5rem;
+  margin-top: 4rem;
+  width: 80%;
+}
+
+.cardSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardText {
+  max-width: 70%;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardHeader p {
+  margin: 0px;
+}
+
+.cardName {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.cardFooter img {
+  border-radius: 50%;
+}
+
+.cardFooter p {
+  margin: 0px;
+}

@@ -1,0 +1,33 @@
+.container {
+  margin-bottom: 1.5rem;
+  width: 60%;
+  
+}
+
+.container a {
+  text-decoration: none;
+  color: #6a6a6a;
+}
+
+.cardSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardText {
+  max-width: 70%;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.cardFooter img {
+  border-radius: 50%;
+}
+
+.cardFooter p{
+  margin: 0px;
+}

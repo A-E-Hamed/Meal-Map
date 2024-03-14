@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "review-1",
+    "title": "Astonishing Flavors at Bella Italia",
+    "image": "review-img.png",
+    "date": "2024-01-05",
+    "content": "Diving into the culinary sea at Bella Italia offers an unforgettable adventure. The ambiance marries well with the gastronomic delights, presenting an ensemble of flavors that dance on the palate. Definitely a must-visit for any food lover.",
+    "restaurantName": "Bella Italia",
+    "address": "1234 Culinary Blvd, Foodie City, FC 56789",
+    "AuthorName": "John Doe"
+  },
+  {
+    "slug": "review-2",
+    "title": "Culinary Excellence at The French Window",
+    "image": "review-img.png",
+    "date": "2024-02-14",
+    "content": "The French Window not only opens up to a breathtaking view but also to a world of exquisite French cuisine. Every dish tells a story, each bite a revelation. A journey of flavors not to be missed.",
+    "restaurantName": "The French Window",
+    "address": "2345 Gourmet Ave, Tasteville, TV 67890",
+    "AuthorName": "Jane Smith"
+  },
+  {
+    "slug": "review-3",
+    "title": "Explosive Flavors at Kaboom Kitchen",
+    "image": "review-img.png",
+    "date": "2024-03-23",
+    "content": "Kaboom Kitchen truly lives up to its name, offering a culinary explosion with every dish. The vibrant atmosphere adds to the dynamic dining experience. Highly recommended for those seeking adventure in their meals.",
+    "restaurantName": "Kaboom Kitchen",
+    "address": "3456 Spice Rd, Flavor Town, FT 78901",
+    "AuthorName": "Alex Johnson"
+  },
+  {
+    "slug": "review-4",
+    "title": "Ocean's Delight at Seafood Symphony",
+    "image": "review-img.png",
+    "date": "2024-01-20",
+    "content": "Seafood Symphony plays a harmonious melody of flavors, with each dish bringing a piece of the ocean to your plate. The freshness of their seafood is unparalleled, making it a prime destination for seafood lovers.",
+    "restaurantName": "Seafood Symphony",
+    "address": "4567 Ocean Drive, Seaside, SS 89012",
+    "AuthorName": "Emily Carter"
+  },
+  {
+    "slug": "review-5",
+    "title": "Hearty Meals at Grandma's Kitchen",
+    "image": "review-img.png",
+    "date": "2024-02-28",
+    "content": "Grandma's Kitchen brings back the warmth of home-cooked meals with a touch of nostalgia. Each dish is prepared with love, reminding you of the comforting taste of home.",
+    "restaurantName": "Grandma's Kitchen",
+    "address": "5678 Homely Path, Cozytown, CT 90123",
+    "AuthorName": "Michael Brown"
+  },
+  {
+    "slug": "review-6",
+    "title": "A Taste of Italy at Roma Ristorante",
+    "image": "review-img.png",
+    "date": "2024-03-15",
+    "content": "Roma Ristorante offers a slice of Italy with its authentic Italian cuisine. From the pasta to the pizza, each dish is a testament to the rich culinary tradition of Italy.",
+    "restaurantName": "Roma Ristorante",
+    "address": "6789 Little Italy, Pastatown, PT 01234",
+    "AuthorName": "Samantha Green"
+  },
+  {
+    "slug": "review-7",
+    "title": "Spice Odyssey at Curry Corner",
+    "image": "review-img.png",
+    "date": "2024-04-02",
+    "content": "Curry Corner takes you on a spice odyssey, with each dish exploring the vast spectrum of flavors found in Indian cuisine. A must-visit for those looking to spice up their dining experience.",
+    "restaurantName": "Curry Corner",
+    "address": "7890 Spice Trail, Flavorville, FV 12345",
+    "AuthorName": "David Wilson"
+  },
+  {
+    "slug": "review-8",
+    "title": "French Elegance at Le Chic",
+    "image": "review-img.png",
+    "date": "2024-05-10",
+    "content": "Le Chic encapsulates the elegance of French dining, with a menu that showcases the finesse of French cuisine. The sophisticated atmosphere complements the exquisite dishes, offering a truly elegant dining experience.",
+    "restaurantName": "Le Chic",
+    "address": "8901 Elegance Way, Sophistictown, ST 23456",
+    "AuthorName": "Linda Martinez"
+  },
+  {
+    "slug": "review-9",
+    "title": "Modern Twists at Fusion Feast",
+    "image": "review-img.png",
+    "date": "2024-06-01",
+    "content": "Fusion Feast brilliantly merges traditional and modern flavors, creating unique culinary experiences. A vibrant, must-try spot for the adventurous foodie.",
+    "restaurantName": "Fusion Feast",
+    "address": "123 Fusion Lane, Modernville, MV 34567",
+    "AuthorName": "Carlos Sanchez"
+  },
+  {
+    "slug": "review-10",
+    "title": "Gourmet Burgers at Burger Haven",
+    "image": "review-img.png",
+    "date": "2024-07-12",
+    "content": "Burger Haven elevates the classic burger to gourmet levels. Juicy, flavorful, and utterly satisfying, each burger is a masterpiece.",
+    "restaurantName": "Burger Haven",
+    "address": "456 Gourmet St, Burger City, BC 45678",
+    "AuthorName": "Rachel Lee"
+  },
+  {
+    "slug": "review-11",
+    "title": "Authentic Japanese at Tokyo Bites",
+    "image": "review-img.png",
+    "date": "2024-08-23",
+    "content": "Tokyo Bites offers a slice of Japan with its authentic cuisine. From sushi to ramen, every dish is a celebration of Japanese culinary art.",
+    "restaurantName": "Tokyo Bites",
+    "address": "789 Sushi Ave, Tokyo Town, TT 56789",
+    "AuthorName": "Mohammed Ali"
+  },
+  {
+    "slug": "review-12",
+    "title": "Exquisite Vegan at Green Goddess",
+    "image": "review-img.png",
+    "date": "2024-09-05",
+    "content": "Green Goddess proves that vegan food can be both nutritious and delicious. A haven for anyone looking to indulge in plant-based excellence.",
+    "restaurantName": "Green Goddess",
+    "address": "1010 Plant Rd, Veggie Ville, VV 67890",
+    "AuthorName": "Sophia Turner"
+  },
+  {
+    "slug": "review-13",
+    "title": "Barbecue Bliss at Smoky Ribs",
+    "image": "review-img.png",
+    "date": "2024-10-17",
+    "content": "Smoky Ribs is a paradise for barbecue lovers. With perfectly smoked meats and rich flavors, it's a culinary journey worth taking.",
+    "restaurantName": "Smoky Ribs",
+    "address": "1212 BBQ Blvd, Smoketown, ST 78901",
+    "AuthorName": "Oliver Miller"
+  },
+  {
+    "slug": "review-14",
+    "title": "Fine Dining at The Gourmet Palace",
+    "image": "review-img.png",
+    "date": "2024-11-28",
+    "content": "The Gourmet Palace offers an unparalleled fine dining experience. Each dish is a work of art, making it the perfect place for a special night out.",
+    "restaurantName": "The Gourmet Palace",
+    "address": "1313 Luxury Lane, Dinetown, DT 89012",
+    "AuthorName": "Emma Wilson"
+  },
+  {
+    "slug": "review-15",
+    "title": "Heavenly Desserts at Sweet Tooth",
+    "image": "review-img.png",
+    "date": "2024-12-09",
+    "content": "Sweet Tooth is a dream come true for dessert enthusiasts. With a wide variety of decadent treats, it's the ultimate destination for a sweet escape.",
+    "restaurantName": "Sweet Tooth",
+    "address": "1414 Dessert Dr, Sweet City, SC 90123",
+    "AuthorName": "Isaac Peterson"
+  },
+  {
+    "slug": "review-16",
+    "title": "Coffee Culture at Brewed Awakenings",
+    "image": "review-img.png",
+    "date": "2025-01-20",
+    "content": "Brewed Awakenings celebrates coffee culture with its exceptional brews and cozy ambiance. A must-visit for coffee lovers.",
+    "restaurantName": "Brewed Awakenings",
+    "address": "1515 Caffeine Ct, Coffeetown, CT 01234",
+    "AuthorName": "Hannah Scott"
+  },
+  {
+    "slug": "review-17",
+    "title": "Taco Heaven at El Taco Grande",
+    "image": "review-img.png",
+    "date": "2025-02-02",
+    "content": "El Taco Grande is a fiesta of flavors, serving up some of the best tacos in town. Vibrant, delicious, and authentically Mexican.",
+    "restaurantName": "El Taco Grande",
+    "address": "1616 Taco Ter, Mexicoville, MV 12345",
+    "AuthorName": "Ethan Taylor"
+  },
+  {
+    "slug": "review-18",
+    "title": "Artisanal Breads at The Bread Basket",
+    "image": "review-img.png",
+    "date": "2025-03-15",
+    "content": "The Bread Basket specializes in artisanal breads that are as delicious as they are beautiful. A delightful experience for all the senses.",
+    "restaurantName": "The Bread Basket",
+    "address": "1717 Yeast Yd, Bakersburg, BB 23456",
+    "AuthorName": "Ava Smith"
+  }
+]

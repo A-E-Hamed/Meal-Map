@@ -1,0 +1,49 @@
+.auth {
+  margin: 4rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.auth h2 {
+  text-align: center;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  width: 60%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.switchController {
+  cursor: pointer;
+  font-size: large;
+  font-weight: 500;
+  color: rgb(97, 97, 97);
+}
+
+.switchController:hover {
+  color: #0d6efd;
+  cursor: pointer;
+}

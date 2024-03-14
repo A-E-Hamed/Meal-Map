@@ -1,0 +1,13 @@
+.container {
+}
+
+
+.container a {
+  text-decoration: none;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.logout {
+  padding: 0;
+}

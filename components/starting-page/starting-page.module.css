@@ -1,0 +1,19 @@
+.starting {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-image: url("/images/bg/ingreadents.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+}
+
+.starting p {
+  font-size: 1.5rem;
+  color: wheat;
+  max-width: 70%;
+  margin: 4rem auto;
+}
