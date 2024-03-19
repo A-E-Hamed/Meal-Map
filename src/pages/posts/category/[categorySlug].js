@@ -31,7 +31,7 @@ const CategoryPostsPage = () => {
       <h2>{pageTitle}</h2>
       <div className={styles.postsContainer}>
         {posts.map((post) => (
-          <PostItem post={post} />
+          <PostItem key={post.id} post={post} />
         ))}
       </div>
     </div>
