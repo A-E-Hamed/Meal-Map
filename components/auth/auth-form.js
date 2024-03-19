@@ -7,6 +7,8 @@ import styles from "./auth-form.module.css";
 
 function AuthForm() {
   const [isLogin, setIsLogin] = useState(true);
+  const [error, setError] = useState("");
+  const [isNotValid, setIsNotValid] = useState(false);
   const emailInputRef = useRef();
   const passwordInputRef = useRef();
 
@@ -29,6 +31,12 @@ function AuthForm() {
         email: enteredEmail,
         password: enteredPassword,
       });
+
+      if (result.error) {
+        console.log(result.error);
+        setError(result.error);
+        setIsNotValid(true);
+      }
 
       if (!result.error) {
         router.replace("/profile");
@@ -60,6 +68,11 @@ function AuthForm() {
             className="form-control"
           />
         </div>
+        {isNotValid && (
+          <div className={styles.error}>
+            <p>{error}</p>
+          </div>
+        )}
         <div className={styles.actions}>
           <button type="submit" className="btn btn-primary">
             Login

@@ -1,5 +1,5 @@
 // SignUpForm.js
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/router";
 import styles from "./signUp-form.module.css";
 import { signIn } from "next-auth/react";
@@ -22,6 +22,9 @@ async function createUser(email, password, username) {
 }
 
 function SignUpForm({ onSwitch }) {
+  const [error, setError] = useState("");
+  const [isNotValid, setIsNotValid] = useState(false);
+
   const emailInputRef = useRef();
   const passwordInputRef = useRef();
   const usernameInputRef = useRef();
@@ -60,12 +63,16 @@ function SignUpForm({ onSwitch }) {
         }
       } catch (error) {
         console.log(error);
+        setError(error.message);
+        setIsNotValid(true);
       }
     } else {
       console.log("Password not matching. Please Confirm your password ");
+      setError("Password not matching. Please Confirm your password ");
     }
   }
 
+  console.log(error);
   return (
     <section className={styles.auth}>
       <h2 className="mb-3">Sign Up</h2>
@@ -90,6 +97,7 @@ function SignUpForm({ onSwitch }) {
             className="form-control"
           />
         </div>
+
         <div className={styles.control}>
           <label htmlFor="password">Your Password</label>
           <input
@@ -110,6 +118,11 @@ function SignUpForm({ onSwitch }) {
             className="form-control"
           />
         </div>
+        {isNotValid && (
+          <div className={styles.error}>
+            <p>{error}</p>
+          </div>
+        )}
         <div className={styles.actions}>
           <button type="submit" className="btn btn-primary">
             Create Account

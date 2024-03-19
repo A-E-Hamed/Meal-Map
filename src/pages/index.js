@@ -1,47 +1,18 @@
-import { Fragment, useState, useEffect } from "react";
+import { Fragment, useState } from "react";
 import useSWR from "swr";
 import StartingPageContent from "../../components/starting-page/starting-page";
 import FeaturedPosts from "../../components/home-page/featured-posts";
+import Categories from "../../components/categories/categories";
 import Spinner from "../../components/spinner/Spinner";
-import Pagination from "react-bootstrap/Pagination";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 function HomePage() {
   const { data: posts, error } = useSWR("/api/post/get-posts", fetcher);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(3);
 
-  // Pagination logic
-  const indexOfLastPost = currentPage * postsPerPage;
-  const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = posts?.slice(indexOfFirstPost, indexOfLastPost);
-
-  // Change page
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
-  // Calculate total pages
-  const pageNumbers = [];
-  for (let i = 1; i <= Math.ceil(posts?.length / postsPerPage); i++) {
-    pageNumbers.push(i);
-  }
 
   if (error) return <div>Failed to load</div>;
   if (!posts) return <Spinner />;
-
-  const pagination = (
-    <Pagination>
-      {pageNumbers.map((number) => (
-        <Pagination.Item
-          key={number}
-          active={number === currentPage}
-          onClick={() => paginate(number)}
-        >
-          {number}
-        </Pagination.Item>
-      ))}
-    </Pagination>
-  );
 
   return (
     <Fragment>
@@ -54,8 +25,7 @@ function HomePage() {
           marginBottom: "2rem",
         }}
       >
-        <FeaturedPosts posts={currentPosts} />
-        {pagination}
+        <Categories posts={posts} />
       </div>
     </Fragment>
   );
