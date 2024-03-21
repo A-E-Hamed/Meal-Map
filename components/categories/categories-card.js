@@ -11,12 +11,12 @@ const CategoryCard = ({ category, categoryImage }) => {
     const categorySlug = encodeURIComponent(
       category.toLowerCase().replace(/\s+/g, "-")
     );
-    router.push(`posts/category/${categorySlug}`);
+    router.replace(`/categories/${categorySlug}`, undefined, { shallow: true });
   };
 
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={imagePath} />
+      <Card.Img variant="top" src={imagePath} height={220} />
       <Card.Body>
         <Card.Title>{category}</Card.Title>
         <Button variant="primary" onClick={navigateToCategory}>

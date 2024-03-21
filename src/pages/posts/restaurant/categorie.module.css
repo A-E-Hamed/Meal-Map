@@ -10,4 +10,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+
+.innerContainer {
+  display: flex;
+  gap: 30px;
+  padding: 1rem;
+}
+
+.categoriesContainer {
 }

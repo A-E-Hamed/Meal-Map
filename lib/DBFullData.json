@@ -1,0 +1,367 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Italian",
+    "categoryImage": "italian-cuisine-category.jpg",
+    "restaurants": [
+      {
+        "restaurantId": 1,
+        "restaurantName": "Pasta Paradise",
+        "restaurantImage": "restaurant.png",
+        "address": "1234 Culinary Blvd, Foodie City, FC 56789",
+        "totalReview": 4.5,
+        "reviews": [
+          {
+            "reviewId": 1,
+            "author": "John Doe",
+            "authorImage": "user-img.png",
+
+            "date": "2024-01-05",
+            "comment": "Great ambiance and delicious pasta!",
+            "rating": 5
+          },
+          {
+            "reviewId": 2,
+            "author": "Jane Doe",
+            "authorImage": "user-img.png",
+
+            "date": "2024-07-25",
+            "comment": "Loved the lasagna. Highly recommend!",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "restaurantId": 2,
+        "restaurantName": "Pizza World",
+        "restaurantImage": "restaurant2.png",
+        "address": "5678 Dough Rd, Cheese Town, CT 12345",
+        "totalReview": 4.8,
+        "reviews": [
+          {
+            "reviewId": 3,
+            "author": "Mike Brown",
+            "authorImage": "user-img.png",
+
+            "date": "2024-02-15",
+            "comment": "Authentic Italian pizza, a must-try!",
+            "rating": 5
+          },
+          {
+            "reviewId": 4,
+            "author": "Sarah Wilson",
+            "authorImage": "user-img.png",
+
+            "date": "2024-06-20",
+            "comment": "Great crust and toppings, loved it!",
+            "rating": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Chinese",
+    "categoryImage": "chinese-cuisine-category.jpg",
+    "restaurants": [
+      {
+        "restaurantId": 3,
+        "restaurantName": "Dragon Noodles",
+        "restaurantImage": "restaurant.png",
+        "address": "2345 Noodle St, Flavor Town, FT 67890",
+        "totalReview": 4.7,
+        "reviews": [
+          {
+            "reviewId": 5,
+            "author": "Chris Lee",
+            "authorImage": "user-img.png",
+            "date": "2024-03-12",
+            "comment": "Best noodles in the city!",
+            "rating": 5
+          },
+          {
+            "reviewId": 6,
+            "author": "Anna Kim",
+            "authorImage": "user-img.png",
+
+            "date": "2024-08-09",
+            "comment": "Loved the spicy Szechuan flavor!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 4,
+        "restaurantName": "Beijing Bites",
+        "restaurantImage": "restaurant2.png",
+        "address": "7890 Duck Ave, Peking City, PC 23456",
+        "totalReview": 4.6,
+        "reviews": [
+          {
+            "reviewId": 7,
+            "author": "David Park",
+            "authorImage": "user-img.png",
+
+            "date": "2024-04-23",
+            "comment": "The Peking duck is phenomenal!",
+            "rating": 5
+          },
+          {
+            "reviewId": 8,
+            "author": "Emily Chen",
+            "authorImage": "user-img.png",
+
+            "date": "2024-09-17",
+            "comment": "Great dim sum selection.",
+            "rating": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Japanese",
+    "categoryImage": "japanese-cuisine-category.jpg",
+    "restaurants": [
+      {
+        "restaurantId": 5,
+        "restaurantName": "Sushi Heaven",
+        "restaurantImage": "restaurant.png",
+        "address": "3456 Sashimi Blvd, Tokyo Town, TT 34567",
+        "totalReview": 4.9,
+        "reviews": [
+          {
+            "reviewId": 9,
+            "author": "Kenji Tanaka",
+            "authorImage": "user-img.png",
+
+            "date": "2024-01-22",
+            "comment": "The freshest sushi I've ever had!",
+            "rating": 5
+          },
+          {
+            "reviewId": 10,
+            "author": "Yumi Sakamoto",
+            "authorImage": "user-img.png",
+
+            "date": "2024-07-30",
+            "comment": "Amazing quality and service. Highly recommend the omakase menu.",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "restaurantId": 6,
+        "restaurantName": "Ramen Realm",
+        "restaurantImage": "restaurant2.png",
+        "address": "6789 Noodle Way, Broth City, BC 45678",
+        "totalReview": 4.8,
+        "reviews": [
+          {
+            "reviewId": 11,
+            "author": "Taro Yamada",
+            "authorImage": "user-img.png",
+
+            "date": "2024-05-14",
+            "comment": "Authentic tonkotsu ramen, delicious!",
+            "rating": 5
+          },
+          {
+            "reviewId": 12,
+            "author": "Naomi Nagata",
+            "authorImage": "user-img.png",
+
+            "date": "2024-10-06",
+            "comment": "Best ramen spot in town. The spicy miso is a must-try!",
+            "rating": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Mexican",
+    "categoryImage": "mexican-cuisine-category.jpg",
+    "restaurants": [
+      {
+        "restaurantId": 7,
+        "restaurantName": "Taco Temple",
+        "restaurantImage": "restaurant.png",
+        "address": "123 Taco Terrace, Fiesta City, FC 78901",
+        "totalReview": 4.7,
+        "reviews": [
+          {
+            "reviewId": 13,
+            "author": "Carlos Hernandez",
+            "authorImage": "user-img.png",
+
+            "date": "2024-03-07",
+            "comment": "The al pastor tacos are out of this world!",
+            "rating": 5
+          },
+          {
+            "reviewId": 14,
+            "author": "Maria Gomez",
+            "authorImage": "user-img.png",
+
+            "date": "2024-08-21",
+            "comment": "Loved the vegetarian options, so flavorful!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 8,
+        "restaurantName": "Guacamole Grille",
+        "restaurantImage": "restaurant2.png",
+        "address": "456 Avocado Ave, Green City, GC 01234",
+        "totalReview": 4.6,
+        "reviews": [
+          {
+            "reviewId": 15,
+            "author": "Juan Martinez",
+            "authorImage": "user-img.png",
+
+            "date": "2024-04-18",
+            "comment": "Best guacamole and margaritas in town!",
+            "rating": 5
+          },
+          {
+            "reviewId": 16,
+            "author": "Sofia Rivera",
+            "authorImage": "user-img.png",
+
+            "date": "2024-09-29",
+            "comment": "The fish tacos are fantastic. Highly recommend!",
+            "rating": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "American",
+    "categoryImage": "american-cuisine-category.jpg",
+    "restaurants": [
+      {
+        "restaurantId": 9,
+        "restaurantName": "Burger Bonanza",
+        "restaurantImage": "restaurant.png",
+        "address": "789 Burger Blvd, Grills City, GC 23456",
+        "totalReview": 4.9,
+        "reviews": [
+          {
+            "reviewId": 17,
+            "author": "Alex Johnson",
+            "authorImage": "user-img.png",
+
+            "date": "2024-02-15",
+            "comment": "Best burger in town! The secret sauce is amazing.",
+            "rating": 5
+          },
+          {
+            "reviewId": 18,
+            "author": "Emily Smith",
+            "authorImage": "user-img.png",
+
+            "date": "2024-06-20",
+            "comment": "Loved the variety of toppings available. Highly recommend the cheese fries!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 10,
+        "restaurantName": "Steakhouse Supreme",
+        "restaurantImage": "restaurant2.png",
+        "address": "321 Meat Ln, Steak City, SC 34567",
+        "totalReview": 4.7,
+        "reviews": [
+          {
+            "reviewId": 19,
+            "author": "Michael Brown",
+            "authorImage": "user-img.png",
+
+            "date": "2024-03-12",
+            "comment": "The ribeye steak was cooked to perfection. Great wine selection as well.",
+            "rating": 5
+          },
+          {
+            "reviewId": 20,
+            "author": "Sarah Davis",
+            "authorImage": "user-img.png",
+
+            "date": "2024-07-22",
+            "comment": "Fantastic ambiance and the service was impeccable. Highly recommend the mashed potatoes.",
+            "rating": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Indian",
+    "categoryImage": "indian-cuisine-category.jpg",
+    "restaurants": [
+      {
+        "restaurantId": 11,
+        "restaurantName": "Curry Corner",
+        "restaurantImage": "restaurant.png",
+        "address": "123 Spice St, Flavor Town, FT 45678",
+        "totalReview": 4.8,
+        "reviews": [
+          {
+            "reviewId": 21,
+            "author": "Raj Patel",
+            "authorImage": "user-img.png",
+
+            "date": "2024-01-30",
+            "comment": "Authentic Indian flavors, the butter chicken is a must-try!",
+            "rating": 5
+          },
+          {
+            "reviewId": 22,
+            "author": "Anita Desai",
+            "authorImage": "user-img.png",
+
+            "date": "2024-08-05",
+            "comment": "The vegetable biryani was full of flavor. Great vegetarian options!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 12,
+        "restaurantName": "Tandoori Palace",
+        "restaurantImage": "restaurant2.png",
+        "address": "456 Tandoor Rd, Spice City, SC 56789",
+        "totalReview": 4.6,
+        "reviews": [
+          {
+            "reviewId": 23,
+            "author": "Vijay Kumar",
+            "authorImage": "user-img.png",
+
+            "date": "2024-04-18",
+            "comment": "The tandoori chicken is incredible, and the naan is always fresh.",
+            "rating": 5
+          },
+          {
+            "reviewId": 24,
+            "author": "Priya Singh",
+            "authorImage": "user-img.png",
+
+            "date": "2024-09-12",
+            "comment": "Loved the lamb rogan josh. The spices were perfectly balanced.",
+            "rating": 4.5
+          }
+        ]
+      }
+    ]
+  }
+]

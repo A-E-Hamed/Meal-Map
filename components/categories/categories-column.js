@@ -1,8 +1,8 @@
 import React from "react";
 import CategoryCard from "./categories-card";
-import styles from "./categories.module.css";
+import styles from "./categories-column.module.css";
 
-const Categories = ({ categories }) => {
+const CategoriesColumn = ({ categories }) => {
   return (
     <div className={styles.container}>
       {categories.map(({ categoryId, categoryName, categoryImage }) => (
@@ -16,4 +16,4 @@ const Categories = ({ categories }) => {
   );
 };
 
-export default Categories;
+export default CategoriesColumn;

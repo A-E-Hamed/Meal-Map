@@ -1,33 +1,33 @@
 .container {
   margin-bottom: 1.5rem;
   width: 60%;
-  
 }
 
-.container a {
-  text-decoration: none;
-  color: #6a6a6a;
+.container p {
+  margin-bottom: 0px;
 }
 
 .cardSection {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .cardText {
   max-width: 70%;
 }
 
-.cardFooter {
+.reviewHeader {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
+  justify-content: space-between;
 }
 
-.cardFooter img {
+.reviewHeader img {
   border-radius: 50%;
 }
 
-.cardFooter p{
+.reviewHeader p {
   margin: 0px;
 }

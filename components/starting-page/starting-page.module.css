@@ -9,9 +9,10 @@
   height: 40vh;
   background-repeat: no-repeat;
   margin-bottom: 1rem;
+  flex-direction: column;
 }
 
-.starting p {
+.header {
   font-size: 1.5rem;
   color: wheat;
   max-width: 70%;

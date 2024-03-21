@@ -1,49 +1,58 @@
 import Image from "next/image";
-import Link from "next/link";
-import { Container } from "react-bootstrap";
+import { Container, ListGroup } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import styles from "./post-item.module.css";
 import BasicRating from "../rating-stars/rating-stars";
 
-const PostItem = (props) => {
-  const {
-    title,
-    date,
-    content,
-    image,
-    slug,
-    restaurantName,
-    address,
-    AuthorName,
-    rating
-  } = props.post;
-  const formattedDate = new Date(date).toLocaleDateString("en-US", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
+const PostItem = ({ data }) => {
+  const { restaurantName, restaurantImage, reviews, address } = data[0];
+  console.log(restaurantImage);
 
-  const imagePath = `/images/posts/${image}`;
-  const linkPath = `/posts/${slug}`;
-  const userImagePath = `/images/users/user-img.png`;
+  const imagePath = `/images/restaurants/${restaurantImage}`;
+
   return (
     <Card className={styles.container}>
-      <Link href={linkPath}>
-        <Card.Header>{restaurantName}</Card.Header>
-        <Card.Body>
-          <Card.Title>{title}</Card.Title>
-          <Container className={styles.cardSection}>
-            <Card.Text className={styles.cardText}>{content}</Card.Text>
-            <Image src={imagePath} alt={title} width={300} height={200} />
-          </Container>
-          <BasicRating value={rating} />
-        </Card.Body>
-        <Card.Footer className={styles.cardFooter}>
-          <Image src={userImagePath} alt="user" width={50} height={50} />
-          <Card.Text>{AuthorName}</Card.Text>
-          <Card.Text>{formattedDate}</Card.Text>
-        </Card.Footer>
-      </Link>
+      <Card.Header as="h5">{restaurantName}</Card.Header>
+      <Card.Body>
+        <Card.Title></Card.Title>
+        {/* <Card.Text>{address}</Card.Text> */}
+        <Container className={styles.cardSection}>
+          <Image
+            src={imagePath}
+            alt={restaurantName}
+            width={500}
+            height={200}
+          />
+        </Container>
+        {/* Check if reviews is not undefined before mapping */}
+        {reviews && (
+          <ListGroup variant="flush">
+            {reviews.map((review) => (
+              <ListGroup.Item key={review.reviewId}>
+                <Container className={styles.reviewHeader}>
+                  <div style={{ display: "flex", gap: "10px" }}>
+                    <Image
+                      src={`/images/users/${review.authorImage}`}
+                      alt={review.author}
+                      width={30}
+                      height={30}
+                    />
+                    <Card.Text>{review.author}</Card.Text>
+                  </div>
+                  <Card.Text> {review.date}</Card.Text>
+                </Container>
+                <br />
+                <Card.Text>"{review.comment}"</Card.Text>
+                <br />
+                <BasicRating value={review.rating} />
+              </ListGroup.Item>
+            ))}
+          </ListGroup>
+        )}
+      </Card.Body>
+      <Card.Footer className={styles.cardFooter}>
+        {/* Footer content if needed */}
+      </Card.Footer>
     </Card>
   );
 };

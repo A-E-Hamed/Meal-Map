@@ -5,7 +5,6 @@ import Typography from "@mui/material/Typography";
 
 export default function BasicRating(props) {
   const [value, setValue] = React.useState(2);
-  console.log(props.value);
 
   return (
     <Box
@@ -13,8 +12,6 @@ export default function BasicRating(props) {
         "& > legend": { mt: 2 },
       }}
     >
-      <Typography component="legend">Controlled</Typography>
-
       <Rating name="read-only" value={props.value} readOnly precision={0.5} />
     </Box>
   );

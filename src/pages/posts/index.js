@@ -8,7 +8,7 @@ import Pagination from "react-bootstrap/Pagination";
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 function AllPostsPage() {
-  const { data: posts, error } = useSWR("/api/post/get-posts", fetcher);
+  const { data: posts, error } = useSWR("/api/post/get-reviews", fetcher);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(5);
 

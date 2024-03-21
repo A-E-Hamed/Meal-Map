@@ -1,18 +1,20 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import useSWR from "swr";
 import StartingPageContent from "../../components/starting-page/starting-page";
-import FeaturedPosts from "../../components/home-page/featured-posts";
-import Categories from "../../components/categories/categories";
 import Spinner from "../../components/spinner/Spinner";
+import Categories from "../../components/categories/categories"; // Ensure this component is ready to display category data
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 function HomePage() {
-  const { data: posts, error } = useSWR("/api/post/get-posts", fetcher);
-
+  // Fetching category data instead of posts
+  const { data: categories, error } = useSWR(
+    "/api/category/get-categories",
+    fetcher
+  );
 
   if (error) return <div>Failed to load</div>;
-  if (!posts) return <Spinner />;
+  if (!categories) return <Spinner />;
 
   return (
     <Fragment>
@@ -25,7 +27,8 @@ function HomePage() {
           marginBottom: "2rem",
         }}
       >
-        <Categories posts={posts} />
+        {/* Pass the categories data to the Categories component */}
+        <Categories categories={categories} />
       </div>
     </Fragment>
   );
