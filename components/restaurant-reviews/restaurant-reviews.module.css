@@ -13,6 +13,11 @@
   margin-bottom: 3rem;
 }
 
+.cardSection img {
+  width: 90%;
+  height: 300px;
+}
+
 .cardText {
   max-width: 70%;
 }
@@ -30,4 +35,14 @@
 
 .reviewHeader p {
   margin: 0px;
+}
+
+.deleteButton {
+  cursor: pointer;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }

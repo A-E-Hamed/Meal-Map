@@ -1,4 +1,4 @@
-import PostsGrid from "../posts/posts-grid";
+import PostsGrid from "../restaurant-reviews/restaurants-grid";
 import styles from "./featured-posts.module.css";
 
 const FeaturedPosts = (props) => {

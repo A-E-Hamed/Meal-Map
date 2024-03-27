@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import useSWR from "swr";
-import PostItem from "../../../../components/posts/post-item";
+import PostItem from "../../../../components/restaurant-reviews/restaurant-reviews";
 import Spinner from "../../../../components/spinner/Spinner";
 import styles from "./categorie.module.css";
 import CategoriesColumn from "../../../../components/categories/categories-column";

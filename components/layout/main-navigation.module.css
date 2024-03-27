@@ -1,7 +1,6 @@
 .container {
 }
 
-
 .container a {
   text-decoration: none;
   margin-right: 1rem;
@@ -10,4 +9,11 @@
 
 .logout {
   padding: 0;
+}
+
+.searchList {
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+  width: 100%;
 }
