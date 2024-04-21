@@ -1,0 +1,22 @@
+.container {
+  margin-bottom: 1rem;
+}
+
+.topControllersContainer {
+  margin-bottom: 1rem;
+}
+.controllers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dataInputs {
+  margin-bottom: 2rem;
+}
+
+#dropdown-autoclose-true {
+  width: 150px;
+}
+.controllers button {
+  width: 130px;
+}

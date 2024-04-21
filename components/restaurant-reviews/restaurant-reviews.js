@@ -56,6 +56,7 @@ const RestaurantReviews = ({ data }) => {
                     />
                     <Card.Text>{review.author}</Card.Text>
                   </div>
+                  <BasicRating value={review.rating} />
                   {session && review.email === session.user.email && (
                     <div className={styles.deleteButton}>
                       <IoTrashOutline
@@ -64,12 +65,11 @@ const RestaurantReviews = ({ data }) => {
                     </div>
                   )}
                 </Container>
-                <br />
-                <Card.Text>"{review.comment}"</Card.Text>
-                <br />
+                <Card.Text className={styles.cardText}>
+                  "{review.comment}"
+                </Card.Text>
                 <Card.Footer className={styles.cardFooter}>
-                  <BasicRating value={review.rating} />
-                  <Card.Text>{review.date}</Card.Text>
+                  <Card.Text className={styles.date}>{review.date}</Card.Text>
                 </Card.Footer>
               </ListGroup.Item>
             ))}

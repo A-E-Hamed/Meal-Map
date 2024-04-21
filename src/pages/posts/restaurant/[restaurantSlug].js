@@ -26,10 +26,13 @@ const ReviewsPage = () => {
     fetcher
   );
 
-  const { data: categories } = useSWR("/api/category/get-categories", fetcher);
+  // const { data: categories } = useSWR("/api/category/get-categories", fetcher);
 
   if (error) return <div>Failed to load reviews.</div>;
   if (!restaurantData) return <Spinner />;
+  if (restaurantData.message) {
+    return <div className={styles.container}>{restaurantData.message}</div>;
+  }
 
   return (
     <div className={styles.container}>

@@ -16,11 +16,9 @@ const RegularReviewForm = ({ restaurantId }) => {
       router.replace("/auth");
     }
 
-    if (!reviewText.trim()) return; // Prevent submitting empty reviews
+    if (!reviewText.trim()) return;
 
-    // Construct the review object
     const review = {
-      // Assuming `reviewId` generation is handled server-side for simplicity
       author: session?.user?.username || "Anonymous",
       email: session?.user.email,
       authorImage: session?.user?.image || "user-img.png", // Use session image or default
@@ -56,7 +54,13 @@ const RegularReviewForm = ({ restaurantId }) => {
   };
 
   return (
-    <div>
+    <div
+      style={{
+        paddingLeft: "1rem",
+        paddingRight: "1rem",
+        paddingBottom: "1rem",
+      }}
+    >
       <FloatingLabel
         controlId="floatingTextarea"
         label="Add New Review"

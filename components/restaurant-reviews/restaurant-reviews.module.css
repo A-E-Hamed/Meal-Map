@@ -19,7 +19,8 @@
 }
 
 .cardText {
-  max-width: 70%;
+  margin-top: 1rem;
+  padding-left: 3rem;
 }
 
 .reviewHeader {
@@ -44,5 +45,11 @@
 .cardFooter {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  border-top: none;
+  background-color: white;
+}
+
+.date {
+  width: 100%;
+  text-align: right;
 }

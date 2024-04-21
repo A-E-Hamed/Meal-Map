@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import useSWR from "swr";
 import Spinner from "../../../components/spinner/Spinner"; // Adjust the path as necessary
 import Restaurants from "../../../components/restaurants/restaurants";
+import styles from "./categorySlug.module.css";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -27,8 +28,8 @@ function CategoryPage() {
   console.log(restaurants);
 
   return (
-    <div>
-      <h1>Restaurants in {categoryNameDisplay}</h1>
+    <div className={styles.container}>
+      <h1> {categoryNameDisplay} Restaurants</h1>
       <Restaurants restaurants={restaurants} />
     </div>
   );

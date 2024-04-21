@@ -363,5 +363,62 @@
         ]
       }
     ]
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "Other",
+    "categoryImage": "other-cuisine-category.jpg",
+    "restaurants": [
+      {
+        "restaurantId": 13,
+        "restaurantName": "Global Bites",
+        "restaurantImage": "restaurant5.png",
+        "address": "3456 World Flavors Ave, Mix City, MX 45678",
+        "totalReview": 4.4,
+        "reviews": [
+          {
+            "reviewId": 25,
+            "author": "Emily Green",
+            "authorImage": "user-img.png",
+            "date": "2024-08-10",
+            "comment": "A delightful mix of global cuisines. A unique dining experience!",
+            "rating": 4.5
+          },
+          {
+            "reviewId": 26,
+            "author": "Benjamin Blue",
+            "authorImage": "user-img.png",
+            "date": "2024-09-15",
+            "comment": "Fusion dishes that are creative and tasty.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "restaurantId": 14,
+        "restaurantName": "Fusion Feast",
+        "restaurantImage": "restaurant6.png",
+        "address": "7890 Fusion Rd, Blend Town, BT 67890",
+        "totalReview": 4.1,
+        "reviews": [
+          {
+            "reviewId": 27,
+            "author": "Clara Sky",
+            "authorImage": "user-img.png",
+            "date": "2024-10-20",
+            "comment": "Interesting blend of east and west flavors.",
+            "rating": 4.2
+          },
+          {
+            "reviewId": 28,
+            "author": "Oscar Gold",
+            "authorImage": "user-img.png",
+            "date": "2024-11-30",
+            "comment": "Creative menu, but some dishes are hit or miss.",
+            "rating": 3.8
+          }
+        ]
+      }
+    ]
   }
 ]
