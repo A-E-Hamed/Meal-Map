@@ -19,7 +19,7 @@ const RestaurantCard = ({ restaurant, restaurantImage }) => {
       <Card.Img variant="top" src={imagePath} height={220} />
       <Card.Body>
         <Card.Title>{restaurant}</Card.Title>
-        <Button variant="primary" onClick={navigateToRestaurant}>
+        <Button className="button" onClick={navigateToRestaurant}>
           View
         </Button>
       </Card.Body>

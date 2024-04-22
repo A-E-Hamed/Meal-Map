@@ -19,7 +19,7 @@ const CategoryCard = ({ category, categoryImage }) => {
       <Card.Img variant="top" src={imagePath} height={220} />
       <Card.Body>
         <Card.Title>{category}</Card.Title>
-        <Button variant="primary" onClick={navigateToCategory}>
+        <Button className="button" onClick={navigateToCategory}>
           View
         </Button>
       </Card.Body>
