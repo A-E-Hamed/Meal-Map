@@ -100,7 +100,7 @@ function MainNavigation() {
                 value={selectedOption} // Set the input value to the selected option
                 onChange={(e) => setSelectedOption(e.target.value)} // Allow manual input changes
               />
-              <Button variant="outline-primary">Search</Button>
+              <Button className="searchButton">Search</Button>
               {showOptions && (
                 <ListGroup className={styles.searchList}>
                   {restaurantNames &&
@@ -126,13 +126,13 @@ function MainNavigation() {
           </Nav>
           {session && (
             <>
-              <Button variant="primary" onClick={logoutHandler}>
+              <Button className="button" onClick={logoutHandler}>
                 Logout
               </Button>
             </>
           )}
           {!session && (
-            <Button variant="primary">
+            <Button className="button">
               <Link href="/auth" className="nav-link">
                 Login
               </Link>

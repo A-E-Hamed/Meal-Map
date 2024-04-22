@@ -1,0 +1,1370 @@
+[
+  {
+    "restaurantId": 1,
+    "restaurantName": "Pasta Paradise",
+    "categoryName": "Italian",
+    "menu": [
+      {
+        "mealId": 101,
+        "mealName": "Spaghetti Carbonara",
+        "mealImage": "menuItem.jpg",
+        "price": 12.5,
+        "ingredients": [
+          "spaghetti",
+          "egg yolks",
+          "pecorino cheese",
+          "guanciale",
+          "black pepper"
+        ]
+      },
+      {
+        "mealId": 102,
+        "mealName": "Margherita Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 15.0,
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "basil"
+        ]
+      },
+      {
+        "mealId": 103,
+        "mealName": "Fettuccine Alfredo",
+        "mealImage": "menuItem.jpg",
+        "price": 14.0,
+        "ingredients": [
+          "fettuccine",
+          "heavy cream",
+          "butter",
+          "parmesan cheese"
+        ]
+      },
+      {
+        "mealId": 104,
+        "mealName": "Pesto Genovese",
+        "mealImage": "menuItem.jpg",
+        "price": 13.0,
+        "ingredients": [
+          "basil",
+          "garlic",
+          "pine nuts",
+          "parmesan cheese",
+          "olive oil"
+        ]
+      },
+      {
+        "mealId": 105,
+        "mealName": "Lasagna Bolognese",
+        "mealImage": "menuItem.jpg",
+        "price": 16.0,
+        "ingredients": [
+          "lasagna noodles",
+          "bolognese sauce",
+          "béchamel sauce",
+          "parmesan cheese"
+        ]
+      },
+      {
+        "mealId": 106,
+        "mealName": "Ravioli di Ricotta",
+        "mealImage": "menuItem.jpg",
+        "price": 13.5,
+        "ingredients": ["ravioli", "ricotta cheese", "spinach", "sage butter"]
+      },
+      {
+        "mealId": 107,
+        "mealName": "Tiramisu",
+        "mealImage": "menuItem.jpg",
+        "price": 8.0,
+        "ingredients": [
+          "espresso",
+          "ladyfingers",
+          "mascarpone cheese",
+          "cocoa",
+          "sugar"
+        ]
+      },
+      {
+        "mealId": 108,
+        "mealName": "Gnocchi Sorrentina",
+        "mealImage": "menuItem.jpg",
+        "price": 14.5,
+        "ingredients": ["gnocchi", "tomato sauce", "mozzarella", "basil"]
+      },
+      {
+        "mealId": 109,
+        "mealName": "Caprese Salad",
+        "mealImage": "menuItem.jpg",
+        "price": 9.0,
+        "ingredients": [
+          "tomatoes",
+          "mozzarella",
+          "basil",
+          "olive oil",
+          "balsamic glaze"
+        ]
+      },
+      {
+        "mealId": 110,
+        "mealName": "Polenta with Mushrooms",
+        "mealImage": "menuItem.jpg",
+        "price": 11.5,
+        "ingredients": [
+          "polenta",
+          "wild mushrooms",
+          "parmesan cheese",
+          "truffle oil"
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": 2,
+    "restaurantName": "Pizza World",
+    "categoryName": "Italian",
+    "menu": [
+      {
+        "mealId": 201,
+        "mealName": "Pepperoni Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 15.0,
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "pepperoni"
+        ]
+      },
+      {
+        "mealId": 202,
+        "mealName": "Four Cheese Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 14.0,
+        "ingredients": [
+          "pizza dough",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "blue cheese",
+          "goat cheese"
+        ]
+      },
+      {
+        "mealId": 203,
+        "mealName": "Hawaiian Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 16.0,
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "ham",
+          "pineapple"
+        ]
+      },
+      {
+        "mealId": 204,
+        "mealName": "Veggie Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 13.5,
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "bell peppers",
+          "onions",
+          "mushrooms",
+          "olives"
+        ]
+      },
+      {
+        "mealId": 205,
+        "mealName": "BBQ Chicken Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 17.0,
+        "ingredients": [
+          "pizza dough",
+          "BBQ sauce",
+          "mozzarella cheese",
+          "grilled chicken",
+          "red onions"
+        ]
+      },
+      {
+        "mealId": 206,
+        "mealName": "Buffalo Chicken Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 18.0,
+        "ingredients": [
+          "pizza dough",
+          "buffalo sauce",
+          "mozzarella cheese",
+          "chicken",
+          "blue cheese"
+        ]
+      },
+      {
+        "mealId": 207,
+        "mealName": "Meat Lover's Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 19.5,
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "pepperoni",
+          "sausage",
+          "bacon",
+          "ham"
+        ]
+      },
+      {
+        "mealId": 208,
+        "mealName": "Margherita Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 12.0,
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "fresh basil"
+        ]
+      },
+      {
+        "mealId": 209,
+        "mealName": "White Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 14.5,
+        "ingredients": [
+          "pizza dough",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "garlic",
+          "olive oil"
+        ]
+      },
+      {
+        "mealId": 210,
+        "mealName": "Spinach and Feta Pizza",
+        "mealImage": "menuItem.jpg",
+        "price": 16.5,
+        "ingredients": [
+          "pizza dough",
+          "mozzarella cheese",
+          "feta cheese",
+          "spinach",
+          "garlic"
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": 3,
+    "restaurantName": "Dragon Noodles",
+    "categoryName": "Chinese",
+    "menu": [
+      {
+        "mealId": 301,
+        "mealName": "Sichuan Spicy Noodles",
+        "mealImage": "menuItem.jpg",
+        "price": 9.5,
+        "ingredients": [
+          "noodles",
+          "chili oil",
+          "garlic",
+          "Sichuan peppercorns",
+          "ground pork"
+        ]
+      },
+      {
+        "mealId": 302,
+        "mealName": "Beef Chow Fun",
+        "mealImage": "menuItem.jpg",
+        "price": 12.0,
+        "ingredients": [
+          "rice noodles",
+          "beef",
+          "bean sprouts",
+          "onions",
+          "soy sauce"
+        ]
+      },
+      {
+        "mealId": 303,
+        "mealName": "Dan Dan Noodles",
+        "mealImage": "menuItem.jpg",
+        "price": 10.0,
+        "ingredients": [
+          "noodles",
+          "sesame paste",
+          "chili oil",
+          "Sichuan peppercorns",
+          "ground pork"
+        ]
+      },
+      {
+        "mealId": 304,
+        "mealName": "Lo Mein",
+        "mealImage": "menuItem.jpg",
+        "price": 8.5,
+        "ingredients": ["noodles", "soy sauce", "vegetables", "optional meat"]
+      },
+      {
+        "mealId": 305,
+        "mealName": "Peking Duck Noodles",
+        "mealImage": "menuItem.jpg",
+        "price": 15.0,
+        "ingredients": [
+          "noodles",
+          "Peking duck",
+          "hoisin sauce",
+          "cucumbers",
+          "green onions"
+        ]
+      },
+      {
+        "mealId": 306,
+        "mealName": "Hot Pot Noodle Soup",
+        "mealImage": "menuItem.jpg",
+        "price": 14.0,
+        "ingredients": [
+          "noodles",
+          "broth",
+          "variety of meats",
+          "mushrooms",
+          "vegetables"
+        ]
+      },
+      {
+        "mealId": 307,
+        "mealName": "Vegetarian Mapo Tofu",
+        "mealImage": "menuItem.jpg",
+        "price": 11.0,
+        "ingredients": [
+          "tofu",
+          "mushrooms",
+          "fermented black beans",
+          "chili oil",
+          "Sichuan peppercorns"
+        ]
+      },
+      {
+        "mealId": 308,
+        "mealName": "Spring Rolls",
+        "mealImage": "menuItem.jpg",
+        "price": 5.0,
+        "ingredients": ["cabbage", "carrot", "mushrooms", "rice paper"]
+      },
+      {
+        "mealId": 309,
+        "mealName": "Dumplings",
+        "mealImage": "menuItem.jpg",
+        "price": 6.5,
+        "ingredients": ["dough", "pork", "cabbage", "scallions"]
+      },
+      {
+        "mealId": 310,
+        "mealName": "Kung Pao Chicken",
+        "mealImage": "menuItem.jpg",
+        "price": 13.0,
+        "ingredients": [
+          "chicken",
+          "peanuts",
+          "vegetables",
+          "Sichuan peppercorns",
+          "chili peppers"
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": 4,
+    "restaurantName": "Beijing Bites",
+    "categoryName": "Chinese",
+    "menu": [
+      {
+        "mealId": 401,
+        "mealName": "Crispy Duck",
+        "mealImage": "menuItem.jpg",
+        "price": 20.0,
+        "ingredients": ["duck", "soy sauce", "honey", "spices"]
+      },
+      {
+        "mealId": 402,
+        "mealName": "General Tso's Chicken",
+        "mealImage": "menuItem.jpg",
+        "price": 12.5,
+        "ingredients": [
+          "chicken",
+          "chili peppers",
+          "garlic",
+          "soy sauce",
+          "sugar"
+        ]
+      },
+      {
+        "mealId": 403,
+        "mealName": "Shrimp Fried Rice",
+        "mealImage": "menuItem.jpg",
+        "price": 11.0,
+        "ingredients": [
+          "rice",
+          "shrimp",
+          "eggs",
+          "peas",
+          "carrots",
+          "soy sauce"
+        ]
+      },
+      {
+        "mealId": 404,
+        "mealName": "Sweet and Sour Pork",
+        "mealImage": "menuItem.jpg",
+        "price": 13.0,
+        "ingredients": ["pork", "pineapple", "bell peppers", "vinegar", "sugar"]
+      },
+      {
+        "mealId": 405,
+        "mealName": "Beef and Broccoli",
+        "mealImage": "menuItem.jpg",
+        "price": 14.0,
+        "ingredients": ["beef", "broccoli", "garlic", "oyster sauce"]
+      },
+      {
+        "mealId": 406,
+        "mealName": "Moo Shu Pork",
+        "mealImage": "menuItem.jpg",
+        "price": 12.5,
+        "ingredients": [
+          "pork",
+          "cabbage",
+          "mushrooms",
+          "scrambled eggs",
+          "hoisin sauce"
+        ]
+      },
+      {
+        "mealId": 407,
+        "mealName": "Egg Drop Soup",
+        "mealImage": "menuItem.jpg",
+        "price": 7.0,
+        "ingredients": ["chicken broth", "eggs", "green onions", "cornstarch"]
+      },
+      {
+        "mealId": 408,
+        "mealName": "Sesame Chicken",
+        "mealImage": "menuItem.jpg",
+        "price": 11.5,
+        "ingredients": [
+          "chicken",
+          "sesame seeds",
+          "soy sauce",
+          "sugar",
+          "vinegar"
+        ]
+      },
+      {
+        "mealId": 409,
+        "mealName": "Vegetable Lo Mein",
+        "mealImage": "menuItem.jpg",
+        "price": 9.5,
+        "ingredients": [
+          "noodles",
+          "assorted vegetables",
+          "soy sauce",
+          "sesame oil"
+        ]
+      },
+      {
+        "mealId": 410,
+        "mealName": "Peking Duck",
+        "mealImage": "menuItem.jpg",
+        "price": 25.0,
+        "ingredients": ["duck", "cucumbers", "hoisin sauce", "pancakes"]
+      }
+    ]
+  },
+  {
+    "restaurantId": 5,
+    "restaurantName": "Sushi Heaven",
+    "categoryName": "Japanese",
+    "menu": [
+      {
+        "mealId": 501,
+        "mealName": "Salmon Nigiri",
+        "mealImage": "menuItem.jpg",
+        "price": 2.5,
+        "ingredients": ["salmon", "sushi rice", "wasabi"]
+      },
+      {
+        "mealId": 502,
+        "mealName": "Tuna Sashimi",
+        "mealImage": "menuItem.jpg",
+        "price": 3.0,
+        "ingredients": ["tuna"]
+      },
+      {
+        "mealId": 503,
+        "mealName": "California Roll",
+        "mealImage": "menuItem.jpg",
+        "price": 6.5,
+        "ingredients": [
+          "crab stick",
+          "avocado",
+          "cucumber",
+          "sushi rice",
+          "seaweed"
+        ]
+      },
+      {
+        "mealId": 504,
+        "mealName": "Spicy Tuna Roll",
+        "mealImage": "menuItem.jpg",
+        "price": 7.0,
+        "ingredients": ["tuna", "spicy mayo", "sushi rice", "seaweed"]
+      },
+      {
+        "mealId": 505,
+        "mealName": "Eel Avocado Roll",
+        "mealImage": "menuItem.jpg",
+        "price": 7.5,
+        "ingredients": ["eel", "avocado", "sushi rice", "seaweed"]
+      },
+      {
+        "mealId": 506,
+        "mealName": "Tempura Shrimp Roll",
+        "mealImage": "menuItem.jpg",
+        "price": 8.0,
+        "ingredients": ["shrimp tempura", "sushi rice", "seaweed", "avocado"]
+      },
+      {
+        "mealId": 507,
+        "mealName": "Rainbow Roll",
+        "mealImage": "menuItem.jpg",
+        "price": 10.0,
+        "ingredients": [
+          "crab stick",
+          "avocado",
+          "cucumber",
+          "sushi rice",
+          "seaweed",
+          "variety of fish"
+        ]
+      },
+      {
+        "mealId": 508,
+        "mealName": "Dragon Roll",
+        "mealImage": "menuItem.jpg",
+        "price": 12.0,
+        "ingredients": ["eel", "cucumber", "avocado", "sushi rice", "seaweed"]
+      },
+      {
+        "mealId": 509,
+        "mealName": "Vegetarian Roll",
+        "mealImage": "menuItem.jpg",
+        "price": 5.5,
+        "ingredients": [
+          "cucumber",
+          "avocado",
+          "carrot",
+          "sushi rice",
+          "seaweed"
+        ]
+      },
+      {
+        "mealId": 510,
+        "mealName": "Miso Soup",
+        "mealImage": "menuItem.jpg",
+        "price": 3.0,
+        "ingredients": ["soybean paste", "tofu", "seaweed", "green onions"]
+      }
+    ]
+  },
+  {
+    "restaurantId": 6,
+    "restaurantName": "Ramen Realm",
+    "categoryName": "Japanese",
+    "menu": [
+      {
+        "mealId": 601,
+        "mealName": "Tonkotsu Ramen",
+        "mealImage": "menuItem.jpg",
+        "price": 12.0,
+        "ingredients": [
+          "pork bone broth",
+          "ramen noodles",
+          "pork belly",
+          "egg",
+          "green onions",
+          "bamboo shoots"
+        ]
+      },
+      {
+        "mealId": 602,
+        "mealName": "Miso Ramen",
+        "mealImage": "menuItem.jpg",
+        "price": 11.0,
+        "ingredients": [
+          "miso broth",
+          "ramen noodles",
+          "ground pork",
+          "corn",
+          "butter",
+          "green onions"
+        ]
+      },
+      {
+        "mealId": 603,
+        "mealName": "Shoyu Ramen",
+        "mealImage": "menuItem.jpg",
+        "price": 10.5,
+        "ingredients": [
+          "soy sauce broth",
+          "ramen noodles",
+          "chicken",
+          "egg",
+          "bamboo shoots",
+          "seaweed"
+        ]
+      },
+      {
+        "mealId": 604,
+        "mealName": "Vegetarian Ramen",
+        "mealImage": "menuItem.jpg",
+        "price": 9.5,
+        "ingredients": [
+          "vegetable broth",
+          "ramen noodles",
+          "tofu",
+          "mushrooms",
+          "spinach",
+          "carrots"
+        ]
+      },
+      {
+        "mealId": 605,
+        "mealName": "Spicy Chicken Ramen",
+        "mealImage": "menuItem.jpg",
+        "price": 11.5,
+        "ingredients": [
+          "spicy chicken broth",
+          "ramen noodles",
+          "chicken",
+          "kimchi",
+          "egg"
+        ]
+      },
+      {
+        "mealId": 606,
+        "mealName": "Seafood Ramen",
+        "mealImage": "menuItem.jpg",
+        "price": 13.5,
+        "ingredients": [
+          "fish broth",
+          "ramen noodles",
+          "shrimp",
+          "scallops",
+          "squid",
+          "seaweed"
+        ]
+      },
+      {
+        "mealId": 607,
+        "mealName": "Beef Ramen",
+        "mealImage": "menuItem.jpg",
+        "price": 12.0,
+        "ingredients": [
+          "beef broth",
+          "ramen noodles",
+          "sliced beef",
+          "bamboo shoots",
+          "mushrooms"
+        ]
+      },
+      {
+        "mealId": 608,
+        "mealName": "Cold Soba",
+        "mealImage": "menuItem.jpg",
+        "price": 8.5,
+        "ingredients": [
+          "buckwheat noodles",
+          "dipping sauce",
+          "green onions",
+          "wasabi",
+          "nori"
+        ]
+      },
+      {
+        "mealId": 609,
+        "mealName": "Karaage",
+        "mealImage": "menuItem.jpg",
+        "price": 7.0,
+        "ingredients": ["fried chicken", "lemon slice"]
+      },
+      {
+        "mealId": 610,
+        "mealName": "Gyoza",
+        "mealImage": "menuItem.jpg",
+        "price": 6.0,
+        "ingredients": ["dumplings", "pork", "cabbage", "ginger", "garlic"]
+      }
+    ]
+  },
+  {
+    "restaurantId": 7,
+    "restaurantName": "Taco Temple",
+    "categoryName": "Mexican",
+    "menu": [
+      {
+        "mealId": 701,
+        "mealName": "Carne Asada Tacos",
+        "mealImage": "menuItem.jpg",
+        "price": 3.5,
+        "ingredients": [
+          "grilled beef",
+          "corn tortillas",
+          "onions",
+          "cilantro",
+          "lime"
+        ]
+      },
+      {
+        "mealId": 702,
+        "mealName": "Chicken Tacos",
+        "mealImage": "menuItem.jpg",
+        "price": 3.0,
+        "ingredients": [
+          "shredded chicken",
+          "corn tortillas",
+          "salsa verde",
+          "onions",
+          "cilantro"
+        ]
+      },
+      {
+        "mealId": 703,
+        "mealName": "Al Pastor Tacos",
+        "mealImage": "menuItem.jpg",
+        "price": 3.5,
+        "ingredients": [
+          "marinated pork",
+          "pineapple",
+          "corn tortillas",
+          "onions",
+          "cilantro"
+        ]
+      },
+      {
+        "mealId": 704,
+        "mealName": "Fish Tacos",
+        "mealImage": "menuItem.jpg",
+        "price": 4.0,
+        "ingredients": [
+          "fried fish",
+          "cabbage slaw",
+          "creamy sauce",
+          "corn tortillas",
+          "lime"
+        ]
+      },
+      {
+        "mealId": 705,
+        "mealName": "Chorizo Tacos",
+        "mealImage": "menuItem.jpg",
+        "price": 3.0,
+        "ingredients": ["chorizo", "corn tortillas", "diced onions", "cilantro"]
+      },
+      {
+        "mealId": 706,
+        "mealName": "Barbacoa Tacos",
+        "mealImage": "menuItem.jpg",
+        "price": 3.5,
+        "ingredients": [
+          "slow-cooked beef",
+          "corn tortillas",
+          "salsa roja",
+          "onions",
+          "cilantro"
+        ]
+      },
+      {
+        "mealId": 707,
+        "mealName": "Vegetarian Tacos",
+        "mealImage": "menuItem.jpg",
+        "price": 2.5,
+        "ingredients": [
+          "grilled vegetables",
+          "corn tortillas",
+          "avocado",
+          "salsa verde"
+        ]
+      },
+      {
+        "mealId": 708,
+        "mealName": "Shrimp Tacos",
+        "mealImage": "menuItem.jpg",
+        "price": 4.5,
+        "ingredients": [
+          "grilled shrimp",
+          "chipotle sauce",
+          "corn tortillas",
+          "lime",
+          "cilantro"
+        ]
+      },
+      {
+        "mealId": 709,
+        "mealName": "Carnitas Tacos",
+        "mealImage": "menuItem.jpg",
+        "price": 3.5,
+        "ingredients": [
+          "pulled pork",
+          "corn tortillas",
+          "salsa verde",
+          "onions",
+          "cilantro"
+        ]
+      },
+      {
+        "mealId": 710,
+        "mealName": "Lengua Tacos",
+        "mealImage": "menuItem.jpg",
+        "price": 3.5,
+        "ingredients": [
+          "beef tongue",
+          "corn tortillas",
+          "cilantro",
+          "onions",
+          "lime"
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": 8,
+    "restaurantName": "Guacamole Grille",
+    "categoryName": "Mexican",
+    "menu": [
+      {
+        "mealId": 801,
+        "mealName": "Guacamole",
+        "mealImage": "menuItem.jpg",
+        "price": 5.0,
+        "ingredients": [
+          "avocado",
+          "onion",
+          "tomatoes",
+          "cilantro",
+          "lime",
+          "jalapeno"
+        ]
+      },
+      {
+        "mealId": 802,
+        "mealName": "Chicken Enchiladas",
+        "mealImage": "menuItem.jpg",
+        "price": 10.0,
+        "ingredients": [
+          "shredded chicken",
+          "corn tortillas",
+          "enchilada sauce",
+          "cheese",
+          "sour cream"
+        ]
+      },
+      {
+        "mealId": 803,
+        "mealName": "Chile Relleno",
+        "mealImage": "menuItem.jpg",
+        "price": 8.5,
+        "ingredients": ["poblano peppers", "queso fresco", "tomato sauce"]
+      },
+      {
+        "mealId": 804,
+        "mealName": "Tamales",
+        "mealImage": "menuItem.jpg",
+        "price": 9.0,
+        "ingredients": ["corn dough", "pork", "red chili sauce", "corn husks"]
+      },
+      {
+        "mealId": 805,
+        "mealName": "Quesadilla",
+        "mealImage": "menuItem.jpg",
+        "price": 7.0,
+        "ingredients": [
+          "flour tortillas",
+          "cheese",
+          "chicken",
+          "green peppers",
+          "onions"
+        ]
+      },
+      {
+        "mealId": 806,
+        "mealName": "Beef Nachos",
+        "mealImage": "menuItem.jpg",
+        "price": 8.0,
+        "ingredients": [
+          "tortilla chips",
+          "ground beef",
+          "cheese",
+          "jalapenos",
+          "salsa",
+          "sour cream"
+        ]
+      },
+      {
+        "mealId": 807,
+        "mealName": "Carne Asada",
+        "mealImage": "menuItem.jpg",
+        "price": 15.0,
+        "ingredients": ["grilled beef", "rice", "beans", "salsa", "tortillas"]
+      },
+      {
+        "mealId": 808,
+        "mealName": "Pozole",
+        "mealImage": "menuItem.jpg",
+        "price": 10.0,
+        "ingredients": [
+          "hominy",
+          "pork",
+          "guajillo chilies",
+          "cabbage",
+          "radishes",
+          "onions",
+          "lime"
+        ]
+      },
+      {
+        "mealId": 809,
+        "mealName": "Fajitas",
+        "mealImage": "menuItem.jpg",
+        "price": 12.0,
+        "ingredients": [
+          "sliced beef",
+          "bell peppers",
+          "onions",
+          "flour tortillas",
+          "salsa"
+        ]
+      },
+      {
+        "mealId": 810,
+        "mealName": "Flautas",
+        "mealImage": "menuItem.jpg",
+        "price": 7.5,
+        "ingredients": [
+          "fried tortillas",
+          "shredded beef",
+          "lettuce",
+          "queso fresco",
+          "sour cream"
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": 9,
+    "restaurantName": "Burger Bonanza",
+    "categoryName": "American",
+    "menu": [
+      {
+        "mealId": 901,
+        "mealName": "Classic Cheeseburger",
+        "mealImage": "menuItem.jpg",
+        "price": 8.5,
+        "ingredients": [
+          "beef patty",
+          "cheddar cheese",
+          "lettuce",
+          "tomato",
+          "onion",
+          "burger bun"
+        ]
+      },
+      {
+        "mealId": 902,
+        "mealName": "Bacon Burger",
+        "mealImage": "menuItem.jpg",
+        "price": 9.5,
+        "ingredients": [
+          "beef patty",
+          "bacon",
+          "lettuce",
+          "tomato",
+          "burger bun"
+        ]
+      },
+      {
+        "mealId": 903,
+        "mealName": "Mushroom Swiss Burger",
+        "mealImage": "menuItem.jpg",
+        "price": 9.0,
+        "ingredients": [
+          "beef patty",
+          "Swiss cheese",
+          "mushrooms",
+          "onion",
+          "burger bun"
+        ]
+      },
+      {
+        "mealId": 904,
+        "mealName": "Veggie Burger",
+        "mealImage": "menuItem.jpg",
+        "price": 8.0,
+        "ingredients": [
+          "vegetable patty",
+          "lettuce",
+          "tomato",
+          "onion",
+          "burger bun"
+        ]
+      },
+      {
+        "mealId": 905,
+        "mealName": "Spicy Jalapeno Burger",
+        "mealImage": "menuItem.jpg",
+        "price": 9.5,
+        "ingredients": [
+          "beef patty",
+          "jalapenos",
+          "pepper jack cheese",
+          "lettuce",
+          "tomato",
+          "onion",
+          "burger bun"
+        ]
+      },
+      {
+        "mealId": 906,
+        "mealName": "BBQ Burger",
+        "mealImage": "menuItem.jpg",
+        "price": 9.5,
+        "ingredients": [
+          "beef patty",
+          "BBQ sauce",
+          "onion rings",
+          "cheddar cheese",
+          "lettuce",
+          "burger bun"
+        ]
+      },
+      {
+        "mealId": 907,
+        "mealName": "The Impossible Burger",
+        "mealImage": "menuItem.jpg",
+        "price": 10.0,
+        "ingredients": [
+          "impossible patty",
+          "lettuce",
+          "tomato",
+          "onion",
+          "vegan mayo",
+          "burger bun"
+        ]
+      },
+      {
+        "mealId": 908,
+        "mealName": "Blue Cheese Burger",
+        "mealImage": "menuItem.jpg",
+        "price": 10.0,
+        "ingredients": [
+          "beef patty",
+          "blue cheese",
+          "caramelized onions",
+          "lettuce",
+          "burger bun"
+        ]
+      },
+      {
+        "mealId": 909,
+        "mealName": "California Burger",
+        "mealImage": "menuItem.jpg",
+        "price": 9.5,
+        "ingredients": [
+          "beef patty",
+          "avocado",
+          "tomato",
+          "onion",
+          "lettuce",
+          "burger bun"
+        ]
+      },
+      {
+        "mealId": 910,
+        "mealName": "Slider Trio",
+        "mealImage": "menuItem.jpg",
+        "price": 9.0,
+        "ingredients": [
+          "mini beef patties",
+          "cheddar cheese",
+          "pickles",
+          "mustard",
+          "mini buns"
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": 10,
+    "restaurantName": "Steakhouse Supreme",
+    "categoryName": "American",
+    "menu": [
+      {
+        "mealId": 1001,
+        "mealName": "Ribeye Steak",
+        "mealImage": "menuItem.jpg",
+        "price": 25.0,
+        "ingredients": ["ribeye steak", "salt", "pepper", "butter"]
+      },
+      {
+        "mealId": 1002,
+        "mealName": "Filet Mignon",
+        "mealImage": "menuItem.jpg",
+        "price": 30.0,
+        "ingredients": ["filet mignon", "salt", "pepper", "butter"]
+      },
+      {
+        "mealId": 1003,
+        "mealName": "New York Strip",
+        "mealImage": "menuItem.jpg",
+        "price": 27.0,
+        "ingredients": ["New York strip steak", "salt", "pepper", "butter"]
+      },
+      {
+        "mealId": 1004,
+        "mealName": "Porterhouse Steak",
+        "mealImage": "menuItem.jpg",
+        "price": 29.0,
+        "ingredients": ["porterhouse steak", "salt", "pepper", "butter"]
+      },
+      {
+        "mealId": 1005,
+        "mealName": "T-Bone Steak",
+        "mealImage": "menuItem.jpg",
+        "price": 26.0,
+        "ingredients": ["T-bone steak", "salt", "pepper", "butter"]
+      },
+      {
+        "mealId": 1006,
+        "mealName": "Sirloin Steak",
+        "mealImage": "menuItem.jpg",
+        "price": 22.0,
+        "ingredients": ["sirloin steak", "salt", "pepper", "butter"]
+      },
+      {
+        "mealId": 1007,
+        "mealName": "Chateaubriand",
+        "mealImage": "menuItem.jpg",
+        "price": 35.0,
+        "ingredients": ["beef tenderloin", "salt", "pepper", "butter"]
+      },
+      {
+        "mealId": 1008,
+        "mealName": "Steak Tartare",
+        "mealImage": "menuItem.jpg",
+        "price": 18.0,
+        "ingredients": [
+          "raw beef",
+          "egg yolk",
+          "capers",
+          "onions",
+          "Worcestershire sauce"
+        ]
+      },
+      {
+        "mealId": 1009,
+        "mealName": "Grilled Skirt Steak",
+        "mealImage": "menuItem.jpg",
+        "price": 20.0,
+        "ingredients": ["skirt steak", "salt", "pepper", "lime juice"]
+      },
+      {
+        "mealId": 1010,
+        "mealName": "Beef Wellington",
+        "mealImage": "menuItem.jpg",
+        "price": 34.0,
+        "ingredients": [
+          "beef fillet",
+          "mushroom duxelles",
+          "prosciutto",
+          "puff pastry"
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": 11,
+    "restaurantName": "Curry Corner",
+    "categoryName": "Indian",
+    "menu": [
+      {
+        "mealId": 1101,
+        "mealName": "Butter Chicken",
+        "mealImage": "menuItem.jpg",
+        "price": 12.5,
+        "ingredients": ["chicken", "butter", "cream", "tomato puree", "spices"]
+      },
+      {
+        "mealId": 1102,
+        "mealName": "Palak Paneer",
+        "mealImage": "menuItem.jpg",
+        "price": 10.0,
+        "ingredients": ["paneer", "spinach", "cream", "tomato", "spices"]
+      },
+      {
+        "mealId": 1103,
+        "mealName": "Lamb Rogan Josh",
+        "mealImage": "menuItem.jpg",
+        "price": 15.0,
+        "ingredients": ["lamb", "yogurt", "garlic", "ginger", "spices"]
+      },
+      {
+        "mealId": 1104,
+        "mealName": "Chicken Tikka Masala",
+        "mealImage": "menuItem.jpg",
+        "price": 13.0,
+        "ingredients": ["chicken", "yogurt", "tomato sauce", "cream", "spices"]
+      },
+      {
+        "mealId": 1105,
+        "mealName": "Chana Masala",
+        "mealImage": "menuItem.jpg",
+        "price": 9.0,
+        "ingredients": ["chickpeas", "onion", "tomato", "spices", "ginger"]
+      },
+      {
+        "mealId": 1106,
+        "mealName": "Beef Vindaloo",
+        "mealImage": "menuItem.jpg",
+        "price": 14.0,
+        "ingredients": ["beef", "potatoes", "vinegar", "garlic", "spices"]
+      },
+      {
+        "mealId": 1107,
+        "mealName": "Vegetable Biryani",
+        "mealImage": "menuItem.jpg",
+        "price": 11.0,
+        "ingredients": ["rice", "mixed vegetables", "saffron", "spices", "nuts"]
+      },
+      {
+        "mealId": 1108,
+        "mealName": "Prawn Curry",
+        "mealImage": "menuItem.jpg",
+        "price": 16.0,
+        "ingredients": [
+          "prawns",
+          "coconut milk",
+          "tomatoes",
+          "onions",
+          "spices"
+        ]
+      },
+      {
+        "mealId": 1109,
+        "mealName": "Aloo Gobi",
+        "mealImage": "menuItem.jpg",
+        "price": 9.5,
+        "ingredients": ["potatoes", "cauliflower", "tomato", "spices", "ginger"]
+      },
+      {
+        "mealId": 1110,
+        "mealName": "Naan",
+        "mealImage": "menuItem.jpg",
+        "price": 2.5,
+        "ingredients": ["flour", "yeast", "butter", "milk", "sugar"]
+      }
+    ]
+  },
+  {
+    "restaurantId": 12,
+    "restaurantName": "Tandoori Palace",
+    "categoryName": "Indian",
+    "menu": [
+      {
+        "mealId": 1201,
+        "mealName": "Tandoori Chicken",
+        "mealImage": "menuItem.jpg",
+        "price": 13.5,
+        "ingredients": [
+          "chicken",
+          "yogurt",
+          "tandoori masala",
+          "lemon",
+          "spices"
+        ]
+      },
+      {
+        "mealId": 1202,
+        "mealName": "Lamb Kebabs",
+        "mealImage": "menuItem.jpg",
+        "price": 14.0,
+        "ingredients": ["lamb", "garlic", "spices", "yogurt", "lemon juice"]
+      },
+      {
+        "mealId": 1203,
+        "mealName": "Paneer Tikka",
+        "mealImage": "menuItem.jpg",
+        "price": 11.0,
+        "ingredients": ["paneer", "bell peppers", "spices", "yogurt", "onions"]
+      },
+      {
+        "mealId": 1204,
+        "mealName": "Fish Tikka",
+        "mealImage": "menuItem.jpg",
+        "price": 15.0,
+        "ingredients": [
+          "fish fillets",
+          "yogurt",
+          "tandoori masala",
+          "lemon",
+          "herbs"
+        ]
+      },
+      {
+        "mealId": 1205,
+        "mealName": "Malai Kofta",
+        "mealImage": "menuItem.jpg",
+        "price": 12.0,
+        "ingredients": ["paneer", "cream", "tomato sauce", "cashews", "spices"]
+      },
+      {
+        "mealId": 1206,
+        "mealName": "Bhuna Gosht",
+        "mealImage": "menuItem.jpg",
+        "price": 15.0,
+        "ingredients": ["lamb", "onions", "tomatoes", "spices", "ginger"]
+      },
+      {
+        "mealId": 1207,
+        "mealName": "Chicken Biryani",
+        "mealImage": "menuItem.jpg",
+        "price": 12.0,
+        "ingredients": ["chicken", "basmati rice", "saffron", "spices", "nuts"]
+      },
+      {
+        "mealId": 1208,
+        "mealName": "Saag Paneer",
+        "mealImage": "menuItem.jpg",
+        "price": 10.5,
+        "ingredients": ["paneer", "spinach", "cream", "spices", "garlic"]
+      },
+      {
+        "mealId": 1209,
+        "mealName": "Garlic Naan",
+        "mealImage": "menuItem.jpg",
+        "price": 3.0,
+        "ingredients": ["flour", "garlic", "yeast", "butter", "coriander"]
+      },
+      {
+        "mealId": 1210,
+        "mealName": "Mango Lassi",
+        "mealImage": "menuItem.jpg",
+        "price": 4.0,
+        "ingredients": ["yogurt", "mango", "sugar", "cardamom"]
+      }
+    ]
+  }
+]

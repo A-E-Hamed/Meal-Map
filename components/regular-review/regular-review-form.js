@@ -73,7 +73,7 @@ const RegularReviewForm = ({ restaurantId }) => {
           onChange={(e) => setReviewText(e.target.value)}
         />
       </FloatingLabel>
-      <Button onClick={handleSubmit}>Add Review</Button>
+      <Button className="button" onClick={handleSubmit}>Add Review</Button>
     </div>
   );
 };

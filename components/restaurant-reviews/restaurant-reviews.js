@@ -7,15 +7,18 @@ import BasicRating from "../rating-stars/rating-stars";
 import RegularReviewForm from "../regular-review/regular-review-form";
 import { useSession } from "next-auth/react";
 import { IoTrashOutline } from "react-icons/io5";
+import RestaurantMenu from "../ui/restaurant-menu";
+import Carousel from "react-bootstrap/Carousel";
 
-const RestaurantReviews = ({ data }) => {
+const RestaurantReviews = ({ data, menu }) => {
   const { restaurantId, restaurantName, restaurantImage, address } = data[0];
   // Initialize reviews state with the reviews prop
   const [reviews, setReviews] = useState(data[0].reviews);
+  const [showForm, setShowForm] = useState(false);
+
   const { data: session } = useSession();
 
   const imagePath = `/images/restaurants/${restaurantImage}`;
-
   const handleDeleteReview = async (reviewId) => {
     console.log("Deleting review with ID:", reviewId);
     try {
@@ -38,9 +41,46 @@ const RestaurantReviews = ({ data }) => {
   return (
     <Card className={styles.container}>
       <Card.Header as="h5">{restaurantName}</Card.Header>
+
       <Card.Body>
         <Container className={styles.cardSection}>
-          <img src={imagePath} alt={restaurantName} />
+          <Carousel style={{ height: "100%", width: "100%" }}>
+            <Carousel.Item interval={2000}>
+              <img
+                src={imagePath}
+                alt={restaurantName}
+                style={{ objectFit: "cover" }}
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={2000}>
+              <img
+                src="/images/restaurants/dummy-restaurant.jpg"
+                alt={restaurantName}
+                style={{ objectFit: "cover" }}
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={2000}>
+              <img
+                src="/images/restaurants/dummy-restaurant2.jpg"
+                alt={restaurantName}
+                style={{ objectFit: "cover" }}
+              />
+            </Carousel.Item>
+          </Carousel>
+
+          <div className={styles.controllers}>
+            <Button onClick={() => setShowForm(true)} className="button">
+              Menu
+            </Button>
+            <Button className="button">About</Button>
+          </div>
+          {showForm && (
+            <RestaurantMenu
+              status="success"
+              onClose={() => setShowForm(false)}
+              menu={menu}
+            />
+          )}
         </Container>
         {reviews && (
           <ListGroup variant="flush">
@@ -56,6 +96,7 @@ const RestaurantReviews = ({ data }) => {
                     />
                     <Card.Text>{review.author}</Card.Text>
                   </div>
+
                   <BasicRating value={review.rating} />
                   {session && review.email === session.user.email && (
                     <div className={styles.deleteButton}>

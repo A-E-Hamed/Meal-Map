@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import useSWR from "swr";
-import PostItem from "../../../../components/restaurant-reviews/restaurant-reviews";
+import RestaurantReviews from "../../../../components/restaurant-reviews/restaurant-reviews";
 import Spinner from "../../../../components/spinner/Spinner";
 import styles from "./categorie.module.css";
 import CategoriesColumn from "../../../../components/categories/categories-column";
@@ -26,6 +26,11 @@ const ReviewsPage = () => {
     fetcher
   );
 
+  const { data: restaurantMenuData, error: menuError } = useSWR(
+    () => `/api/menu/get-restaurant-menu?id=${restaurantData[0].restaurantId}`,
+    fetcher
+  );
+
   // const { data: categories } = useSWR("/api/category/get-categories", fetcher);
 
   if (error) return <div>Failed to load reviews.</div>;
@@ -40,7 +45,11 @@ const ReviewsPage = () => {
       <div className={styles.innerContainer}>
         <div className={styles.postsContainer}>
           {restaurantData.map((restaurant) => (
-            <PostItem key={restaurant.restaurantId} data={restaurantData} />
+            <RestaurantReviews
+              key={restaurant.restaurantId}
+              data={restaurantData}
+              menu={restaurantMenuData}
+            />
           ))}
         </div>
         {/* <div className={styles.categoriesContainer}>

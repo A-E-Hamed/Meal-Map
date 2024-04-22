@@ -1,0 +1,40 @@
+.cardBody {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cardBody img {
+  width: 100px;
+}
+
+.cardDescription {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptionElement {
+  display: flex;
+  flex-direction: column;
+}
+
+.fontStyles {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.header {
+  margin-bottom: 1rem !important;
+  font-size: larger;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p {
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}

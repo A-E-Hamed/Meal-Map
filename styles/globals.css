@@ -7,7 +7,6 @@
 body {
   font-family: "Open Sans", "Lato", sans-serif;
   margin: 0;
- 
 }
 
 h1,
@@ -17,4 +16,34 @@ h4,
 h5,
 h6 {
   font-family: "Lato", sans-serif;
+}
+
+.button {
+  background-color: #c3af97 !important; /* Initial background color */
+  border-color: transparent !important;
+  border-style: solid !important;
+
+  color: white !important; /* Text color */
+  cursor: pointer !important; /* Changes the cursor to a pointer to indicate it's clickable */
+  transition: background-color 0.3s !important; /* Smooth transition for the background color */
+}
+
+.button:hover {
+  background-color: #937362 !important; /* Darker shade on hover */
+  /* Border remains transparent, no need to redefine */
+}
+
+.searchButton {
+  background-color: white !important; /* Initial background color */
+  border-color: transparent !important;
+  border-style: solid !important;
+  border-color: #c3af97 !important;
+
+  color: black !important; /* Text color */
+  cursor: pointer !important; /* Changes the cursor to a pointer to indicate it's clickable */
+  transition: background-color 0.3s !important; /* Smooth transition for the background color */
+}
+
+.searchButton:hover {
+  background-color: #937362 !important;
 }
