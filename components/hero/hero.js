@@ -9,7 +9,9 @@ const Hero = () => {
 
   return (
     <div className={styles.container}>
-      <Button onClick={() => setShowForm(true)}>Add Your Review</Button>
+      <Button className="button" onClick={() => setShowForm(true)}>
+        Add Your Review
+      </Button>
       {showForm && (
         <ReviewForm status="success" onClose={() => setShowForm(false)} />
       )}
