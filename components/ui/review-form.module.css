@@ -8,7 +8,7 @@
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
   position: fixed;
   height: 70vh;
-
+  overflow-x: auto;
   width: 100%;
   left: 0;
   border-top-right-radius: 0;
@@ -33,7 +33,12 @@
 }
 
 .header {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: larger;
+  font-weight: 600;
 }
 .notification h2 {
   font-size: var(--size-6);

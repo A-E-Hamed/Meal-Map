@@ -14,9 +14,11 @@
   margin-bottom: 2rem;
 }
 
-#dropdown-autoclose-true {
-  width: 150px;
+.dropDownControllers {
+  width: 160px !important;
 }
+
+
 .controllers button {
   width: 130px;
 }

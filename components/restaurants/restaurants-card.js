@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import styles from "./restaurants-card.module.css";
 
 const RestaurantCard = ({ restaurant, restaurantImage }) => {
   const router = useRouter();
@@ -15,7 +16,7 @@ const RestaurantCard = ({ restaurant, restaurantImage }) => {
   };
 
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card className={styles.card}>
       <Card.Img variant="top" src={imagePath} height={220} />
       <Card.Body>
         <Card.Title>{restaurant}</Card.Title>

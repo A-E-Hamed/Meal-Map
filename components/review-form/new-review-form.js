@@ -109,7 +109,7 @@ const NewReviewForm = (props) => {
             onSelect={handleSelectCategory}
             disabled={addNewRestaurant}
           >
-            <Dropdown.Toggle id="dropdown-autoclose-true">
+            <Dropdown.Toggle id="dropdown-autoclose-true" className="button">
               {selectedCategory.name}
             </Dropdown.Toggle>
             <Dropdown.Menu>
@@ -131,6 +131,7 @@ const NewReviewForm = (props) => {
           >
             <Dropdown.Toggle
               id="dropdown-autoclose-true"
+              className="button"
               disabled={addNewRestaurant}
             >
               {selectedRestaurant}
@@ -192,10 +193,12 @@ const NewReviewForm = (props) => {
           </div>
         )}
         <div className={styles.controllers}>
-          <Button variant="primary" onClick={handleSubmit}>
+          <Button className="button" onClick={handleSubmit}>
             Submit Review
           </Button>
-          <Button onClick={props.onClose}>Close</Button>
+          <Button className="button" onClick={props.onClose}>
+            Close
+          </Button>
         </div>
       </Form>
     </div>

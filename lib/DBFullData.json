@@ -15,7 +15,6 @@
             "reviewId": 1,
             "author": "John Doe",
             "authorImage": "user-img.png",
-
             "date": "2024-01-05",
             "comment": "Great ambiance and delicious pasta!",
             "rating": 5
@@ -24,7 +23,6 @@
             "reviewId": 2,
             "author": "Jane Doe",
             "authorImage": "user-img.png",
-
             "date": "2024-07-25",
             "comment": "Loved the lasagna. Highly recommend!",
             "rating": 4
@@ -39,22 +37,95 @@
         "totalReview": 4.8,
         "reviews": [
           {
-            "reviewId": 3,
+            "reviewId": 1001,
             "author": "Mike Brown",
             "authorImage": "user-img.png",
-
             "date": "2024-02-15",
             "comment": "Authentic Italian pizza, a must-try!",
             "rating": 5
           },
           {
-            "reviewId": 4,
+            "reviewId": 1002,
             "author": "Sarah Wilson",
             "authorImage": "user-img.png",
-
             "date": "2024-06-20",
             "comment": "Great crust and toppings, loved it!",
             "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 3,
+        "restaurantName": "Trattoria Vista",
+        "restaurantImage": "restaurant3.png",
+        "address": "2345 Vineyard View, Little Italy, LI 98765",
+        "totalReview": 4.7,
+        "reviews": [
+          {
+            "reviewId": 2001,
+            "author": "Emma Taylor",
+            "authorImage": "user-img.png",
+            "date": "2024-03-10",
+            "comment": "Cozy setting with superb gnocchi!",
+            "rating": 5
+          },
+          {
+            "reviewId": 2002,
+            "author": "Oliver Smith",
+            "authorImage": "user-img.png",
+            "date": "2024-08-15",
+            "comment": "The risotto is a dream!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 4,
+        "restaurantName": "Gelato Galore",
+        "restaurantImage": "restaurant4.png",
+        "address": "7890 Frosty Ln, Cool City, CC 54321",
+        "totalReview": 4.6,
+        "reviews": [
+          {
+            "reviewId": 3001,
+            "author": "Sophia Johnson",
+            "authorImage": "user-img.png",
+            "date": "2024-05-22",
+            "comment": "Best gelato outside of Italy!",
+            "rating": 5
+          },
+          {
+            "reviewId": 3002,
+            "author": "Lucas Martinez",
+            "authorImage": "user-img.png",
+            "date": "2024-09-19",
+            "comment": "A huge range of flavors. Loved the pistachio!",
+            "rating": 4.3
+          }
+        ]
+      },
+      {
+        "restaurantId": 5,
+        "restaurantName": "Vino Veritas",
+        "restaurantImage": "restaurant5.png",
+        "address": "3210 Grapevine St, Winetown, WT 65432",
+        "totalReview": 4.9,
+        "reviews": [
+          {
+            "reviewId": 4001,
+            "author": "Mia Davis",
+            "authorImage": "user-img.png",
+            "date": "2024-04-14",
+            "comment": "Delightful wine selection and excellent service!",
+            "rating": 5
+          },
+          {
+            "reviewId": 4002,
+            "author": "Ethan Lee",
+            "authorImage": "user-img.png",
+            "date": "2024-10-07",
+            "comment": "Perfect spot for a date night!",
+            "rating": 4.8
           }
         ]
       }
@@ -66,14 +137,14 @@
     "categoryImage": "chinese-cuisine-category.jpg",
     "restaurants": [
       {
-        "restaurantId": 3,
+        "restaurantId": 101,
         "restaurantName": "Dragon Noodles",
         "restaurantImage": "restaurant.png",
         "address": "2345 Noodle St, Flavor Town, FT 67890",
         "totalReview": 4.7,
         "reviews": [
           {
-            "reviewId": 5,
+            "reviewId": 101001,
             "author": "Chris Lee",
             "authorImage": "user-img.png",
             "date": "2024-03-12",
@@ -81,10 +152,9 @@
             "rating": 5
           },
           {
-            "reviewId": 6,
+            "reviewId": 101002,
             "author": "Anna Kim",
             "authorImage": "user-img.png",
-
             "date": "2024-08-09",
             "comment": "Loved the spicy Szechuan flavor!",
             "rating": 4.5
@@ -92,29 +162,102 @@
         ]
       },
       {
-        "restaurantId": 4,
+        "restaurantId": 102,
         "restaurantName": "Beijing Bites",
         "restaurantImage": "restaurant2.png",
         "address": "7890 Duck Ave, Peking City, PC 23456",
         "totalReview": 4.6,
         "reviews": [
           {
-            "reviewId": 7,
+            "reviewId": 102001,
             "author": "David Park",
             "authorImage": "user-img.png",
-
             "date": "2024-04-23",
             "comment": "The Peking duck is phenomenal!",
             "rating": 5
           },
           {
-            "reviewId": 8,
+            "reviewId": 102002,
             "author": "Emily Chen",
             "authorImage": "user-img.png",
-
             "date": "2024-09-17",
             "comment": "Great dim sum selection.",
             "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 103,
+        "restaurantName": "Shanghai Spring",
+        "restaurantImage": "restaurant3.png",
+        "address": "123 Fortune Blvd, Dynasty Town, DT 45678",
+        "totalReview": 4.8,
+        "reviews": [
+          {
+            "reviewId": 103001,
+            "author": "Sophia Yang",
+            "authorImage": "user-img.png",
+            "date": "2024-05-20",
+            "comment": "Authentic Shanghai cuisine, superb dumplings!",
+            "rating": 5
+          },
+          {
+            "reviewId": 103002,
+            "author": "Jack Lin",
+            "authorImage": "user-img.png",
+            "date": "2024-11-05",
+            "comment": "The hot pot is a must-try, really spicy and flavorful!",
+            "rating": 4.7
+          }
+        ]
+      },
+      {
+        "restaurantId": 104,
+        "restaurantName": "Cantonese Corner",
+        "restaurantImage": "restaurant4.png",
+        "address": "4567 Market St, Canton Row, CR 78901",
+        "totalReview": 4.4,
+        "reviews": [
+          {
+            "reviewId": 104001,
+            "author": "Liam Wong",
+            "authorImage": "user-img.png",
+            "date": "2024-02-11",
+            "comment": "The best Char Siu in town!",
+            "rating": 5
+          },
+          {
+            "reviewId": 104002,
+            "author": "Emma Ho",
+            "authorImage": "user-img.png",
+            "date": "2024-07-18",
+            "comment": "Delicious seafood congee, highly recommended.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "restaurantId": 105,
+        "restaurantName": "Sichuan Spice",
+        "restaurantImage": "restaurant5.png",
+        "address": "8910 Spicy Way, Hotpot City, HC 32123",
+        "totalReview": 4.9,
+        "reviews": [
+          {
+            "reviewId": 105001,
+            "author": "Olivia Zhao",
+            "authorImage": "user-img.png",
+            "date": "2024-01-08",
+            "comment": "Explosive flavors, especially the mapo tofu!",
+            "rating": 5
+          },
+          {
+            "reviewId": 105002,
+            "author": "Noah Chen",
+            "authorImage": "user-img.png",
+            "date": "2024-06-24",
+            "comment": "Very authentic Sichuan food, spicy and perfect.",
+            "rating": 4.8
           }
         ]
       }
@@ -126,26 +269,24 @@
     "categoryImage": "japanese-cuisine-category.jpg",
     "restaurants": [
       {
-        "restaurantId": 5,
+        "restaurantId": 201,
         "restaurantName": "Sushi Heaven",
         "restaurantImage": "restaurant.png",
         "address": "3456 Sashimi Blvd, Tokyo Town, TT 34567",
         "totalReview": 4.9,
         "reviews": [
           {
-            "reviewId": 9,
+            "reviewId": 200001,
             "author": "Kenji Tanaka",
             "authorImage": "user-img.png",
-
             "date": "2024-01-22",
             "comment": "The freshest sushi I've ever had!",
             "rating": 5
           },
           {
-            "reviewId": 10,
+            "reviewId": 200002,
             "author": "Yumi Sakamoto",
             "authorImage": "user-img.png",
-
             "date": "2024-07-30",
             "comment": "Amazing quality and service. Highly recommend the omakase menu.",
             "rating": 5
@@ -153,28 +294,101 @@
         ]
       },
       {
-        "restaurantId": 6,
+        "restaurantId": 202,
         "restaurantName": "Ramen Realm",
         "restaurantImage": "restaurant2.png",
         "address": "6789 Noodle Way, Broth City, BC 45678",
         "totalReview": 4.8,
         "reviews": [
           {
-            "reviewId": 11,
+            "reviewId": 201001,
             "author": "Taro Yamada",
             "authorImage": "user-img.png",
-
             "date": "2024-05-14",
             "comment": "Authentic tonkotsu ramen, delicious!",
             "rating": 5
           },
           {
-            "reviewId": 12,
+            "reviewId": 201002,
             "author": "Naomi Nagata",
             "authorImage": "user-img.png",
-
             "date": "2024-10-06",
             "comment": "Best ramen spot in town. The spicy miso is a must-try!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 203,
+        "restaurantName": "Tempura Tsunami",
+        "restaurantImage": "restaurant3.png",
+        "address": "123 Tempura Trail, Fry City, FC 12345",
+        "totalReview": 4.7,
+        "reviews": [
+          {
+            "reviewId": 202001,
+            "author": "Hiroshi Kato",
+            "authorImage": "user-img.png",
+            "date": "2024-03-25",
+            "comment": "Light and crispy tempura, perfectly cooked!",
+            "rating": 5
+          },
+          {
+            "reviewId": 202002,
+            "author": "Emi Kobayashi",
+            "authorImage": "user-img.png",
+            "date": "2024-11-15",
+            "comment": "A wide variety of vegetables and seafood. A must-visit!",
+            "rating": 4.8
+          }
+        ]
+      },
+      {
+        "restaurantId": 204,
+        "restaurantName": "Kobe Beef Delight",
+        "restaurantImage": "restaurant4.png",
+        "address": "789 Kobe Lane, Beef City, BC 67890",
+        "totalReview": 4.9,
+        "reviews": [
+          {
+            "reviewId": 203001,
+            "author": "Daichi Sato",
+            "authorImage": "user-img.png",
+            "date": "2024-02-10",
+            "comment": "The Kobe beef is melt-in-your-mouth delicious!",
+            "rating": 5
+          },
+          {
+            "reviewId": 203002,
+            "author": "Akira Fujiwara",
+            "authorImage": "user-img.png",
+            "date": "2024-08-22",
+            "comment": "Expensive but worth every penny for the quality.",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "restaurantId": 205,
+        "restaurantName": "Matcha Magic",
+        "restaurantImage": "restaurant5.png",
+        "address": "456 Green Tea Way, Matcha City, MC 89012",
+        "totalReview": 4.6,
+        "reviews": [
+          {
+            "reviewId": 204001,
+            "author": "Yuko Hashimoto",
+            "authorImage": "user-img.png",
+            "date": "2024-04-05",
+            "comment": "Best matcha desserts in town. The matcha tiramisu is exceptional!",
+            "rating": 4.7
+          },
+          {
+            "reviewId": 204002,
+            "author": "Nobu Tanaka",
+            "authorImage": "user-img.png",
+            "date": "2024-09-20",
+            "comment": "Great variety of matcha drinks and sweets. Very relaxing atmosphere.",
             "rating": 4.5
           }
         ]
@@ -187,26 +401,24 @@
     "categoryImage": "mexican-cuisine-category.jpg",
     "restaurants": [
       {
-        "restaurantId": 7,
+        "restaurantId": 301,
         "restaurantName": "Taco Temple",
         "restaurantImage": "restaurant.png",
         "address": "123 Taco Terrace, Fiesta City, FC 78901",
         "totalReview": 4.7,
         "reviews": [
           {
-            "reviewId": 13,
+            "reviewId": 300001,
             "author": "Carlos Hernandez",
             "authorImage": "user-img.png",
-
             "date": "2024-03-07",
             "comment": "The al pastor tacos are out of this world!",
             "rating": 5
           },
           {
-            "reviewId": 14,
+            "reviewId": 300002,
             "author": "Maria Gomez",
             "authorImage": "user-img.png",
-
             "date": "2024-08-21",
             "comment": "Loved the vegetarian options, so flavorful!",
             "rating": 4.5
@@ -214,29 +426,94 @@
         ]
       },
       {
-        "restaurantId": 8,
+        "restaurantId": 302,
         "restaurantName": "Guacamole Grille",
         "restaurantImage": "restaurant2.png",
         "address": "456 Avocado Ave, Green City, GC 01234",
         "totalReview": 4.6,
         "reviews": [
           {
-            "reviewId": 15,
+            "reviewId": 301001,
             "author": "Juan Martinez",
             "authorImage": "user-img.png",
-
             "date": "2024-04-18",
             "comment": "Best guacamole and margaritas in town!",
             "rating": 5
           },
           {
-            "reviewId": 16,
+            "reviewId": 301002,
             "author": "Sofia Rivera",
             "authorImage": "user-img.png",
-
             "date": "2024-09-29",
             "comment": "The fish tacos are fantastic. Highly recommend!",
             "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 303,
+        "restaurantName": "Burrito Barn",
+        "restaurantImage": "restaurant3.png",
+        "address": "789 Burrito Blvd, Spice Town, ST 67890",
+        "totalReview": 4.8,
+        "reviews": [
+          {
+            "reviewId": 302001,
+            "author": "Elena Torres",
+            "authorImage": "user-img.png",
+            "date": "2024-03-15",
+            "comment": "Incredible burritos, packed with flavor!",
+            "rating": 5
+          },
+          {
+            "reviewId": 302002,
+            "author": "Miguel Sanchez",
+            "authorImage": "user-img.png",
+            "date": "2024-10-10",
+            "comment": "Authentic tastes and generous portions!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 304,
+        "restaurantName": "Chili Churros",
+        "restaurantImage": "restaurant4.png",
+        "address": "987 Chili St, Hot City, HC 12345",
+        "totalReview": 4.5,
+        "reviews": [
+          {
+            "reviewId": 303001,
+            "author": "Isabel Cruz",
+            "authorImage": "user-img.png",
+            "date": "2024-06-20",
+            "comment": "Churros with a twist! Loved the spicy dip!",
+            "rating": 4.8
+          }
+        ]
+      },
+      {
+        "restaurantId": 305,
+        "restaurantName": "Salsa Swing",
+        "restaurantImage": "restaurant5.png",
+        "address": "321 Salsa Circle, Dance City, DC 45678",
+        "totalReview": 4.7,
+        "reviews": [
+          {
+            "reviewId": 304001,
+            "author": "Pedro Alvarez",
+            "authorImage": "user-img.png",
+            "date": "2024-02-11",
+            "comment": "The live music and salsa nights are amazing with great food!",
+            "rating": 5
+          },
+          {
+            "reviewId": 304002,
+            "author": "Carmen Diaz",
+            "authorImage": "user-img.png",
+            "date": "2024-08-14",
+            "comment": "Perfect spot for a fun evening. Tacos and cocktails are top-notch.",
+            "rating": 4.7
           }
         ]
       }
@@ -248,26 +525,24 @@
     "categoryImage": "american-cuisine-category.jpg",
     "restaurants": [
       {
-        "restaurantId": 9,
+        "restaurantId": 401,
         "restaurantName": "Burger Bonanza",
         "restaurantImage": "restaurant.png",
         "address": "789 Burger Blvd, Grills City, GC 23456",
         "totalReview": 4.9,
         "reviews": [
           {
-            "reviewId": 17,
+            "reviewId": 400001,
             "author": "Alex Johnson",
             "authorImage": "user-img.png",
-
             "date": "2024-02-15",
             "comment": "Best burger in town! The secret sauce is amazing.",
             "rating": 5
           },
           {
-            "reviewId": 18,
+            "reviewId": 400002,
             "author": "Emily Smith",
             "authorImage": "user-img.png",
-
             "date": "2024-06-20",
             "comment": "Loved the variety of toppings available. Highly recommend the cheese fries!",
             "rating": 4.5
@@ -275,29 +550,102 @@
         ]
       },
       {
-        "restaurantId": 10,
+        "restaurantId": 402,
         "restaurantName": "Steakhouse Supreme",
         "restaurantImage": "restaurant2.png",
         "address": "321 Meat Ln, Steak City, SC 34567",
         "totalReview": 4.7,
         "reviews": [
           {
-            "reviewId": 19,
+            "reviewId": 401001,
             "author": "Michael Brown",
             "authorImage": "user-img.png",
-
             "date": "2024-03-12",
             "comment": "The ribeye steak was cooked to perfection. Great wine selection as well.",
             "rating": 5
           },
           {
-            "reviewId": 20,
+            "reviewId": 401002,
             "author": "Sarah Davis",
             "authorImage": "user-img.png",
-
             "date": "2024-07-22",
             "comment": "Fantastic ambiance and the service was impeccable. Highly recommend the mashed potatoes.",
             "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 403,
+        "restaurantName": "Rib Rack BBQ",
+        "restaurantImage": "restaurant3.png",
+        "address": "123 BBQ Rd, Smoky City, SC 45678",
+        "totalReview": 4.8,
+        "reviews": [
+          {
+            "reviewId": 402001,
+            "author": "Greg Wilson",
+            "authorImage": "user-img.png",
+            "date": "2024-01-20",
+            "comment": "The smoked ribs are to die for! Great selection of sauces.",
+            "rating": 5
+          },
+          {
+            "reviewId": 402002,
+            "author": "Anna Johnson",
+            "authorImage": "user-img.png",
+            "date": "2024-08-15",
+            "comment": "Love the outdoor seating and the pulled pork sandwiches are excellent.",
+            "rating": 4.8
+          }
+        ]
+      },
+      {
+        "restaurantId": 404,
+        "restaurantName": "Diner Delights",
+        "restaurantImage": "restaurant4.png",
+        "address": "456 Morning Star Ln, Diner Town, DT 67890",
+        "totalReview": 4.6,
+        "reviews": [
+          {
+            "reviewId": 403001,
+            "author": "Rachel Green",
+            "authorImage": "user-img.png",
+            "date": "2024-05-11",
+            "comment": "The pancakes are fluffy and simply the best!",
+            "rating": 5
+          },
+          {
+            "reviewId": 403002,
+            "author": "Joey Tribbiani",
+            "authorImage": "user-img.png",
+            "date": "2024-09-23",
+            "comment": "Huge portions and great coffee, a classic diner experience!",
+            "rating": 4.6
+          }
+        ]
+      },
+      {
+        "restaurantId": 405,
+        "restaurantName": "Fried Chicken Fest",
+        "restaurantImage": "restaurant5.png",
+        "address": "789 Cluck Cluck Dr, Chicken City, CC 23456",
+        "totalReview": 4.7,
+        "reviews": [
+          {
+            "reviewId": 404001,
+            "author": "Monica Geller",
+            "authorImage": "user-img.png",
+            "date": "2024-03-25",
+            "comment": "The fried chicken is crispy and juicy, the best I've had!",
+            "rating": 5
+          },
+          {
+            "reviewId": 404002,
+            "author": "Chandler Bing",
+            "authorImage": "user-img.png",
+            "date": "2024-11-30",
+            "comment": "Great vibes and even better chicken. The sides are all amazing too!",
+            "rating": 4.7
           }
         ]
       }
@@ -309,26 +657,24 @@
     "categoryImage": "indian-cuisine-category.jpg",
     "restaurants": [
       {
-        "restaurantId": 11,
+        "restaurantId": 501,
         "restaurantName": "Curry Corner",
         "restaurantImage": "restaurant.png",
         "address": "123 Spice St, Flavor Town, FT 45678",
         "totalReview": 4.8,
         "reviews": [
           {
-            "reviewId": 21,
+            "reviewId": 500001,
             "author": "Raj Patel",
             "authorImage": "user-img.png",
-
             "date": "2024-01-30",
             "comment": "Authentic Indian flavors, the butter chicken is a must-try!",
             "rating": 5
           },
           {
-            "reviewId": 22,
+            "reviewId": 500002,
             "author": "Anita Desai",
             "authorImage": "user-img.png",
-
             "date": "2024-08-05",
             "comment": "The vegetable biryani was full of flavor. Great vegetarian options!",
             "rating": 4.5
@@ -336,29 +682,102 @@
         ]
       },
       {
-        "restaurantId": 12,
+        "restaurantId": 502,
         "restaurantName": "Tandoori Palace",
         "restaurantImage": "restaurant2.png",
         "address": "456 Tandoor Rd, Spice City, SC 56789",
         "totalReview": 4.6,
         "reviews": [
           {
-            "reviewId": 23,
+            "reviewId": 501001,
             "author": "Vijay Kumar",
             "authorImage": "user-img.png",
-
             "date": "2024-04-18",
             "comment": "The tandoori chicken is incredible, and the naan is always fresh.",
             "rating": 5
           },
           {
-            "reviewId": 24,
+            "reviewId": 501002,
             "author": "Priya Singh",
             "authorImage": "user-img.png",
-
             "date": "2024-09-12",
             "comment": "Loved the lamb rogan josh. The spices were perfectly balanced.",
             "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 503,
+        "restaurantName": "Mumbai Masala",
+        "restaurantImage": "restaurant3.png",
+        "address": "789 Garam Ave, Curry City, CC 67890",
+        "totalReview": 4.7,
+        "reviews": [
+          {
+            "reviewId": 502001,
+            "author": "Sunil Gupta",
+            "authorImage": "user-img.png",
+            "date": "2024-02-14",
+            "comment": "The paneer tikka was superb, and the mango lassi is a perfect match.",
+            "rating": 5
+          },
+          {
+            "reviewId": 502002,
+            "author": "Meena Kaur",
+            "authorImage": "user-img.png",
+            "date": "2024-03-22",
+            "comment": "Amazing samosas, the best I’ve had outside of India!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 504,
+        "restaurantName": "Spice Symphony",
+        "restaurantImage": "restaurant4.png",
+        "address": "123 Curry Blvd, Masala Town, MT 78901",
+        "totalReview": 4.9,
+        "reviews": [
+          {
+            "reviewId": 503001,
+            "author": "Deepak Mehta",
+            "authorImage": "user-img.png",
+            "date": "2024-05-15",
+            "comment": "Exceptional service and the kebabs were mouth-watering!",
+            "rating": 5
+          },
+          {
+            "reviewId": 503002,
+            "author": "Lata Reddy",
+            "authorImage": "user-img.png",
+            "date": "2024-06-19",
+            "comment": "The thali is generous and authentically spiced. Highly recommend!",
+            "rating": 4.8
+          }
+        ]
+      },
+      {
+        "restaurantId": 505,
+        "restaurantName": "Chai Pani",
+        "restaurantImage": "restaurant5.png",
+        "address": "456 Chai Lane, Tea City, TC 89012",
+        "totalReview": 4.4,
+        "reviews": [
+          {
+            "reviewId": 504001,
+            "author": "Sara Ahmed",
+            "authorImage": "user-img.png",
+            "date": "2024-07-23",
+            "comment": "The chai was authentic and the pav bhaji hit the spot.",
+            "rating": 4.7
+          },
+          {
+            "reviewId": 504002,
+            "author": "Mohit Verma",
+            "authorImage": "user-img.png",
+            "date": "2024-08-30",
+            "comment": "Lively atmosphere and tasty snacks. The pani puri was crisp and delicious!",
+            "rating": 4.2
           }
         ]
       }
@@ -370,14 +789,14 @@
     "categoryImage": "other-cuisine-category.jpg",
     "restaurants": [
       {
-        "restaurantId": 13,
+        "restaurantId": 601,
         "restaurantName": "Global Bites",
         "restaurantImage": "restaurant5.png",
         "address": "3456 World Flavors Ave, Mix City, MX 45678",
         "totalReview": 4.4,
         "reviews": [
           {
-            "reviewId": 25,
+            "reviewId": 600001,
             "author": "Emily Green",
             "authorImage": "user-img.png",
             "date": "2024-08-10",
@@ -385,7 +804,7 @@
             "rating": 4.5
           },
           {
-            "reviewId": 26,
+            "reviewId": 600002,
             "author": "Benjamin Blue",
             "authorImage": "user-img.png",
             "date": "2024-09-15",
@@ -395,14 +814,14 @@
         ]
       },
       {
-        "restaurantId": 14,
+        "restaurantId": 602,
         "restaurantName": "Fusion Feast",
         "restaurantImage": "restaurant6.png",
         "address": "7890 Fusion Rd, Blend Town, BT 67890",
         "totalReview": 4.1,
         "reviews": [
           {
-            "reviewId": 27,
+            "reviewId": 601001,
             "author": "Clara Sky",
             "authorImage": "user-img.png",
             "date": "2024-10-20",
@@ -410,12 +829,303 @@
             "rating": 4.2
           },
           {
-            "reviewId": 28,
+            "reviewId": 601002,
             "author": "Oscar Gold",
             "authorImage": "user-img.png",
             "date": "2024-11-30",
             "comment": "Creative menu, but some dishes are hit or miss.",
             "rating": 3.8
+          }
+        ]
+      },
+      {
+        "restaurantId": 603,
+        "restaurantName": "Taste Trek",
+        "restaurantImage": "restaurant7.png",
+        "address": "1122 Adventure Blvd, Journey City, JC 89012",
+        "totalReview": 4.5,
+        "reviews": [
+          {
+            "reviewId": 602001,
+            "author": "Lucas White",
+            "authorImage": "user-img.png",
+            "date": "2024-01-22",
+            "comment": "Truly a culinary adventure around the world in one place!",
+            "rating": 4.7
+          },
+          {
+            "reviewId": 602002,
+            "author": "Sophia Gray",
+            "authorImage": "user-img.png",
+            "date": "2024-02-18",
+            "comment": "Each dish presents an exciting new flavor. Highly recommended!",
+            "rating": 4.6
+          }
+        ]
+      },
+      {
+        "restaurantId": 604,
+        "restaurantName": "Cosmopolitan Plates",
+        "restaurantImage": "restaurant8.png",
+        "address": "3344 Global Way, Metroville, MV 10234",
+        "totalReview": 4.3,
+        "reviews": [
+          {
+            "reviewId": 603001,
+            "author": "Mia Hill",
+            "authorImage": "user-img.png",
+            "date": "2024-03-30",
+            "comment": "Perfect for anyone looking to try something new and exotic!",
+            "rating": 4.4
+          },
+          {
+            "reviewId": 603002,
+            "author": "Ethan Lake",
+            "authorImage": "user-img.png",
+            "date": "2024-04-25",
+            "comment": "Loved the innovative approach to classic dishes!",
+            "rating": 4.2
+          }
+        ]
+      },
+      {
+        "restaurantId": 605,
+        "restaurantName": "Palette Fusion",
+        "restaurantImage": "restaurant9.png",
+        "address": "5566 New Taste Ave, Flavor Park, FP 21345",
+        "totalReview": 4.0,
+        "reviews": [
+          {
+            "reviewId": 604001,
+            "author": "Amelia Pond",
+            "authorImage": "user-img.png",
+            "date": "2024-05-12",
+            "comment": "A fresh take on fusion cuisine, with bold and original flavors!",
+            "rating": 4.3
+          },
+          {
+            "reviewId": 604002,
+            "author": "Noah Stream",
+            "authorImage": "user-img.png",
+            "date": "2024-06-19",
+            "comment": "Good ambiance and innovative dishes, though some are better than others.",
+            "rating": 3.7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": 8,
+    "categoryName": "French",
+    "categoryImage": "french-cuisine-category.jpg",
+    "restaurants": [
+      {
+        "restaurantId": 701,
+        "restaurantName": "Parisian Plates",
+        "restaurantImage": "restaurant7.png",
+        "address": "1234 Rue Bonaparte, Gourmet City, GC 56789",
+        "totalReview": 4.8,
+        "reviews": [
+          {
+            "reviewId": 700001,
+            "author": "Claire Dubois",
+            "authorImage": "user-img.png",
+            "date": "2024-03-15",
+            "comment": "Exquisite French cuisine with a modern twist!",
+            "rating": 5
+          },
+          {
+            "reviewId": 700002,
+            "author": "Marc Antoine",
+            "authorImage": "user-img.png",
+            "date": "2024-07-22",
+            "comment": "The duck confit is a must-try, absolutely divine!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 702,
+        "restaurantName": "Bistro Gourmet",
+        "restaurantImage": "restaurant8.png",
+        "address": "5678 Champs Elysees, Paris City, PC 12345",
+        "totalReview": 4.6,
+        "reviews": [
+          {
+            "reviewId": 701001,
+            "author": "Jean Luc",
+            "authorImage": "user-img.png",
+            "date": "2024-02-20",
+            "comment": "Authentic French flavors, the best escargot in town!",
+            "rating": 5
+          },
+          {
+            "reviewId": 701002,
+            "author": "Sophie Girard",
+            "authorImage": "user-img.png",
+            "date": "2024-06-25",
+            "comment": "A cozy bistro with a fantastic wine list. Highly recommend!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 703,
+        "restaurantName": "La Maison du Vin",
+        "restaurantImage": "restaurant9.png",
+        "address": "2345 Vin Avenue, Bordeaux, FR 34567",
+        "totalReview": 4.7,
+        "reviews": [
+          {
+            "reviewId": 702001,
+            "author": "Gérard Depardieu",
+            "authorImage": "user-img.png",
+            "date": "2024-04-11",
+            "comment": "Wonderful ambiance and excellent wines paired with every dish!",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "restaurantId": 704,
+        "restaurantName": "Chez René",
+        "restaurantImage": "restaurant10.png",
+        "address": "8910 Revolution Road, Lyon, LY 89012",
+        "totalReview": 4.5,
+        "reviews": [
+          {
+            "reviewId": 703001,
+            "author": "Marie Curie",
+            "authorImage": "user-img.png",
+            "date": "2024-05-10",
+            "comment": "A delightful experience with classic French dishes. Perfect soufflé!",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "restaurantId": 705,
+        "restaurantName": "Café de Flore",
+        "restaurantImage": "restaurant11.png",
+        "address": "6789 Quartier Latin, Paris, PR 67890",
+        "totalReview": 4.8,
+        "reviews": [
+          {
+            "reviewId": 704001,
+            "author": "Victor Hugo",
+            "authorImage": "user-img.png",
+            "date": "2024-01-20",
+            "comment": "Historic cafe with an unmatched literary charm and excellent croissants.",
+            "rating": 4.7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": 9,
+    "categoryName": "Thai",
+    "categoryImage": "thai-cuisine-category.jpg",
+    "restaurants": [
+      {
+        "restaurantId": 801,
+        "restaurantName": "Bangkok Bites",
+        "restaurantImage": "restaurant9.png",
+        "address": "2345 Pad Thai Path, Spicy City, SC 67890",
+        "totalReview": 4.9,
+        "reviews": [
+          {
+            "reviewId": 800001,
+            "author": "Lisa Wong",
+            "authorImage": "user-img.png",
+            "date": "2024-03-12",
+            "comment": "Amazing Pad Thai and green curry!",
+            "rating": 5
+          },
+          {
+            "reviewId": 800002,
+            "author": "Arun Cheung",
+            "authorImage": "user-img.png",
+            "date": "2024-08-19",
+            "comment": "The best Tom Yum soup I've had outside of Thailand.",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 802,
+        "restaurantName": "Chiang Mai Chews",
+        "restaurantImage": "restaurant10.png",
+        "address": "7890 Sticky Rice Road, Flavor Town, FT 23456",
+        "totalReview": 4.7,
+        "reviews": [
+          {
+            "reviewId": 801001,
+            "author": "Ming Fa",
+            "authorImage": "user-img.png",
+            "date": "2024-04-23",
+            "comment": "Authentic northern Thai cuisine, delicious khao soi!",
+            "rating": 5
+          },
+          {
+            "reviewId": 801002,
+            "author": "Sara Lee",
+            "authorImage": "user-img.png",
+            "date": "2024-09-17",
+            "comment": "Great atmosphere and even better food. Highly recommend the mango sticky rice!",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "restaurantId": 803,
+        "restaurantName": "Pattaya Spice",
+        "restaurantImage": "restaurant11.png",
+        "address": "123 Curry Lane, Tropical City, TC 45678",
+        "totalReview": 4.8,
+        "reviews": [
+          {
+            "reviewId": 802001,
+            "author": "Noi Som",
+            "authorImage": "user-img.png",
+            "date": "2024-05-05",
+            "comment": "Incredible seafood curry, fresh and flavorful!",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "restaurantId": 804,
+        "restaurantName": "Siam Garden",
+        "restaurantImage": "restaurant12.png",
+        "address": "4567 Lemongrass Road, Herb City, HC 56789",
+        "totalReview": 4.6,
+        "reviews": [
+          {
+            "reviewId": 803001,
+            "author": "Anna Chen",
+            "authorImage": "user-img.png",
+            "date": "2024-06-15",
+            "comment": "Perfect pad see ew, the flavors are spot on!",
+            "rating": 4.7
+          }
+        ]
+      },
+      {
+        "restaurantId": 805,
+        "restaurantName": "Thai Terrace",
+        "restaurantImage": "restaurant13.png",
+        "address": "8901 Jasmine Avenue, Aromatic City, AC 67890",
+        "totalReview": 4.9,
+        "reviews": [
+          {
+            "reviewId": 804001,
+            "author": "Benjamin Tao",
+            "authorImage": "user-img.png",
+            "date": "2024-07-20",
+            "comment": "The Massaman curry is the best I've ever had!",
+            "rating": 5
           }
         ]
       }

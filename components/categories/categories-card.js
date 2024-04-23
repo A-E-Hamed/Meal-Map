@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import styles from "./categories-card.module.css";
 
 const CategoryCard = ({ category, categoryImage }) => {
   const router = useRouter(); // Hook for programmatic navigation
@@ -15,7 +16,7 @@ const CategoryCard = ({ category, categoryImage }) => {
   };
 
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card className={styles.card}>
       <Card.Img variant="top" src={imagePath} height={220} />
       <Card.Body>
         <Card.Title>{category}</Card.Title>

@@ -44,6 +44,9 @@ h6 {
   transition: background-color 0.3s !important; /* Smooth transition for the background color */
 }
 
+#dropdown-autoclose-true {
+  width: 160px;
+}
 .searchButton:hover {
   background-color: #937362 !important;
 }
